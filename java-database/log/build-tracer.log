@@ -1,0 +1,1453 @@
+[T 18:13:52 16526] CodeQL CLI version 2.10.2
+[T 18:13:52 16526] Initializing tracer in Lua mode.
+[T 18:13:52 16526] Initialising tags...
+[T 18:13:52 16526] ID set to 000000000000408E_0000000000000001 (parent root)
+[T 18:13:52 16526] Initializing tracer in Lua mode.
+[T 18:13:52 16526] Initialising tags...
+[T 18:13:52 16526] ID set to 000000000000408E_0000000000000002 (parent root)
+[T 18:13:52 16526] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:13:52 16526] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:13:53 16526] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:13:53 16526] Executing the following tracer actions:
+[T 18:13:53 16526] Tracer actions:
+[T 18:13:53 16526] pre_invocations(0)
+[T 18:13:53 16526] post_invocations(0)
+[T 18:13:53 16526] trace_languages(1): [java]
+[T 18:13:53 16527] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.0000408E.slice.x86_64: replacing existing signature
+[T 18:13:53 16526] Initializing tracer in Lua mode.
+[T 18:13:53 16526] Initialising tags...
+[T 18:13:53 16526] ID set to 000000000000408E_0000000000000003 (parent 000000000000408E_0000000000000002)
+[T 18:13:53 16526] ==== Candidate to intercept: /Users/brent/Documents/codeql/java/tools/autobuild.sh (canonical: /Users/brent/Documents/codeql/java/tools/autobuild.sh) ====
+[T 18:13:53 16526] Lua: === Intercepted call to /users/brent/documents/codeql/java/tools/autobuild.sh ===
+[T 18:13:53 16526] Executing the following tracer actions:
+[T 18:13:53 16526] Tracer actions:
+[T 18:13:53 16526] pre_invocations(0)
+[T 18:13:53 16526] post_invocations(0)
+[T 18:13:53 16526] trace_languages(1): [java]
+[T 18:13:53 16532] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.00004093.slice.arm64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.00004093.slice.arm64
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.00004093.slice.arm64: replacing existing signature
+[T 18:13:53 16531] Initializing tracer in Lua mode.
+[T 18:13:53 16531] Initialising tags...
+[T 18:13:53 16531] ID set to 0000000000004093_0000000000000001 (parent 000000000000408E_0000000000000003)
+[T 18:13:53 16531] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java (canonical: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java) ====
+[T 18:13:53 16531] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/java-aarch64/bin/java ===
+[T 18:13:53 16531] Executing the following tracer actions:
+[T 18:13:53 16531] Tracer actions:
+[T 18:13:53 16531] pre_invocations(0)
+[T 18:13:53 16531] post_invocations(0)
+[T 18:13:53 16531] trace_languages(1): [java]
+[T 18:13:53 16531] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:13:53 16531] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:13:54 16531] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:18:51 16577] CodeQL CLI version 2.10.2
+[T 18:18:51 16577] Initializing tracer in Lua mode.
+[T 18:18:51 16577] Initialising tags...
+[T 18:18:51 16577] ID set to 00000000000040C1_0000000000000001 (parent root)
+[T 18:18:51 16577] Initializing tracer in Lua mode.
+[T 18:18:51 16577] Initialising tags...
+[T 18:18:51 16577] ID set to 00000000000040C1_0000000000000002 (parent root)
+[T 18:18:51 16577] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:18:51 16577] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:18:51 16577] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:18:51 16577] Executing the following tracer actions:
+[T 18:18:51 16577] Tracer actions:
+[T 18:18:51 16577] pre_invocations(0)
+[T 18:18:51 16577] post_invocations(0)
+[T 18:18:51 16577] trace_languages(1): [java]
+[T 18:23:00 16624] CodeQL CLI version 2.10.2
+[T 18:23:00 16624] Initializing tracer in Lua mode.
+[T 18:23:00 16624] Initialising tags...
+[T 18:23:00 16624] ID set to 00000000000040F0_0000000000000001 (parent root)
+[T 18:23:00 16624] Initializing tracer in Lua mode.
+[T 18:23:00 16624] Initialising tags...
+[T 18:23:00 16624] ID set to 00000000000040F0_0000000000000002 (parent root)
+[T 18:23:00 16624] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:23:00 16624] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:23:00 16624] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:23:00 16624] Executing the following tracer actions:
+[T 18:23:00 16624] Tracer actions:
+[T 18:23:00 16624] pre_invocations(0)
+[T 18:23:00 16624] post_invocations(0)
+[T 18:23:00 16624] trace_languages(1): [java]
+[T 18:23:00 16625] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.000040F0.slice.x86_64: replacing existing signature
+[T 18:23:00 16624] Initializing tracer in Lua mode.
+[T 18:23:00 16624] Initialising tags...
+[T 18:23:00 16624] ID set to 00000000000040F0_0000000000000003 (parent 00000000000040F0_0000000000000002)
+[T 18:23:00 16624] ==== Candidate to intercept: /Users/brent/Documents/codeql/java/tools/autobuild.sh (canonical: /Users/brent/Documents/codeql/java/tools/autobuild.sh) ====
+[T 18:23:00 16624] Lua: === Intercepted call to /users/brent/documents/codeql/java/tools/autobuild.sh ===
+[T 18:23:00 16624] Executing the following tracer actions:
+[T 18:23:00 16624] Tracer actions:
+[T 18:23:00 16624] pre_invocations(0)
+[T 18:23:00 16624] post_invocations(0)
+[T 18:23:00 16624] trace_languages(1): [java]
+[T 18:23:00 16630] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.000040F5.slice.arm64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.000040F5.slice.arm64
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.000040F5.slice.arm64: replacing existing signature
+[T 18:23:01 16629] Initializing tracer in Lua mode.
+[T 18:23:01 16629] Initialising tags...
+[T 18:23:01 16629] ID set to 00000000000040F5_0000000000000001 (parent 00000000000040F0_0000000000000003)
+[T 18:23:01 16629] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java (canonical: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java) ====
+[T 18:23:01 16629] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/java-aarch64/bin/java ===
+[T 18:23:01 16629] Executing the following tracer actions:
+[T 18:23:01 16629] Tracer actions:
+[T 18:23:01 16629] pre_invocations(0)
+[T 18:23:01 16629] post_invocations(0)
+[T 18:23:01 16629] trace_languages(1): [java]
+[T 18:23:01 16629] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:23:01 16629] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:23:01 16629] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:27:02 17898] CodeQL CLI version 2.10.2
+[T 18:27:02 17898] Initializing tracer in Lua mode.
+[T 18:27:02 17898] Initialising tags...
+[T 18:27:02 17898] ID set to 00000000000045EA_0000000000000001 (parent root)
+[T 18:27:02 17898] Initializing tracer in Lua mode.
+[T 18:27:02 17898] Initialising tags...
+[T 18:27:02 17898] ID set to 00000000000045EA_0000000000000002 (parent root)
+[T 18:27:02 17898] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:27:02 17898] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:27:02 17898] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:27:02 17898] Executing the following tracer actions:
+[T 18:27:02 17898] Tracer actions:
+[T 18:27:02 17898] pre_invocations(0)
+[T 18:27:02 17898] post_invocations(0)
+[T 18:27:02 17898] trace_languages(1): [java]
+[T 18:27:02 17899] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.000045EA.slice.x86_64: replacing existing signature
+[T 18:27:02 17898] Initializing tracer in Lua mode.
+[T 18:27:02 17898] Initialising tags...
+[T 18:27:02 17898] ID set to 00000000000045EA_0000000000000003 (parent 00000000000045EA_0000000000000002)
+[T 18:27:02 17898] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/bin/gradle) ====
+[T 18:27:02 17898] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/bin/gradle ===
+[T 18:27:02 17898] Executing the following tracer actions:
+[T 18:27:02 17898] Tracer actions:
+[T 18:27:02 17898] pre_invocations(0)
+[T 18:27:02 17898] post_invocations(0)
+[T 18:27:02 17898] trace_languages(1): [java]
+[T 18:27:02 17903] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/sh.semmle.000045EA.slice.x86_64: replacing existing signature
+[T 18:27:03 17898] Initializing tracer in Lua mode.
+[T 18:27:03 17898] Initialising tags...
+[T 18:27:03 17898] ID set to 00000000000045EA_0000000000000004 (parent 00000000000045EA_0000000000000003)
+[T 18:27:03 17898] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle) ====
+[T 18:27:03 17898] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/libexec/bin/gradle ===
+[T 18:27:03 17898] Executing the following tracer actions:
+[T 18:27:03 17898] Tracer actions:
+[T 18:27:03 17898] pre_invocations(0)
+[T 18:27:03 17898] post_invocations(0)
+[T 18:27:03 17898] trace_languages(1): [java]
+[T 18:27:03 17898] Initializing tracer in Lua mode.
+[T 18:27:03 17898] Initialising tags...
+[T 18:27:03 17898] ID set to 00000000000045EA_0000000000000005 (parent 00000000000045EA_0000000000000004)
+[T 18:27:03 17898] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:27:03 17898] Lua: === Intercepted call to /bin/bash ===
+[T 18:27:03 17898] Executing the following tracer actions:
+[T 18:27:03 17898] Tracer actions:
+[T 18:27:03 17898] pre_invocations(0)
+[T 18:27:03 17898] post_invocations(0)
+[T 18:27:03 17898] trace_languages(1): [java]
+[T 18:27:03 17911] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/uname.semmle.000045F6.slice.x86_64: replacing existing signature
+[T 18:27:03 17910] Initializing tracer in Lua mode.
+[T 18:27:03 17910] Initialising tags...
+[T 18:27:03 17910] ID set to 00000000000045F6_0000000000000001 (parent 00000000000045EA_0000000000000005)
+[T 18:27:03 17910] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:27:03 17910] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:27:03 17910] Executing the following tracer actions:
+[T 18:27:03 17910] Tracer actions:
+[T 18:27:03 17910] pre_invocations(0)
+[T 18:27:03 17910] post_invocations(0)
+[T 18:27:03 17910] trace_languages(1): [java]
+[T 18:27:03 17920] Attempting to switch stdout/stderr to 3...
+[T 18:27:03 17922] Attempting to switch stdout/stderr to 3...
+[T 18:27:03 17923] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/xargs.semmle.000045FE.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/sed.semmle.000045FF.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/tr.semmle.00004601.slice.x86_64: replacing existing signature
+[T 18:27:03 17921] Initializing tracer in Lua mode.
+[T 18:27:03 17921] Initialising tags...
+[T 18:27:03 17921] ID set to 0000000000004601_0000000000000001 (parent 00000000000045EA_0000000000000005)
+[T 18:27:03 17921] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:27:03 17921] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:27:03 17921] Executing the following tracer actions:
+[T 18:27:03 17921] Tracer actions:
+[T 18:27:03 17921] pre_invocations(0)
+[T 18:27:03 17921] post_invocations(0)
+[T 18:27:03 17921] trace_languages(1): [java]
+[T 18:27:03 17918] Initializing tracer in Lua mode.
+[T 18:27:03 17918] Initialising tags...
+[T 18:27:03 17918] ID set to 00000000000045FE_0000000000000001 (parent 00000000000045EA_0000000000000005)
+[T 18:27:03 17918] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:27:03 17918] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:27:03 17918] Executing the following tracer actions:
+[T 18:27:03 17918] Tracer actions:
+[T 18:27:03 17918] pre_invocations(0)
+[T 18:27:03 17918] post_invocations(0)
+[T 18:27:03 17918] trace_languages(1): [java]
+[T 18:27:03 17932] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/echo.semmle.000045FE.slice.x86_64: replacing existing signature
+[T 18:27:04 17919] Initializing tracer in Lua mode.
+[T 18:27:04 17919] Initialising tags...
+[T 18:27:04 17919] ID set to 00000000000045FF_0000000000000001 (parent 00000000000045EA_0000000000000005)
+[T 18:27:04 17919] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:27:04 17919] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:27:04 17919] Executing the following tracer actions:
+[T 18:27:04 17919] Tracer actions:
+[T 18:27:04 17919] pre_invocations(0)
+[T 18:27:04 17919] post_invocations(0)
+[T 18:27:04 17919] trace_languages(1): [java]
+[T 18:27:04 17936] Initializing tracer in Lua mode.
+[T 18:27:04 17936] Initialising tags...
+[T 18:27:04 17936] ID set to 0000000000004610_0000000000000001 (parent 00000000000045FE_0000000000000001)
+[T 18:27:04 17936] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:27:04 17936] Lua: === Intercepted call to /bin/echo ===
+[T 18:27:04 17936] Executing the following tracer actions:
+[T 18:27:04 17936] Tracer actions:
+[T 18:27:04 17936] pre_invocations(0)
+[T 18:27:04 17936] post_invocations(0)
+[T 18:27:04 17936] trace_languages(1): [java]
+[T 18:27:04 17939] Initializing tracer in Lua mode.
+[T 18:27:04 17939] Initialising tags...
+[T 18:27:04 17939] ID set to 0000000000004613_0000000000000001 (parent 00000000000045FE_0000000000000001)
+[T 18:27:04 17939] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:27:04 17939] Lua: === Intercepted call to /bin/echo ===
+[T 18:27:04 17939] Executing the following tracer actions:
+[T 18:27:04 17939] Tracer actions:
+[T 18:27:04 17939] pre_invocations(0)
+[T 18:27:04 17939] post_invocations(0)
+[T 18:27:04 17939] trace_languages(1): [java]
+[T 18:27:04 17940] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java.semmle.000045EA.slice.arm64: replacing existing signature
+[T 18:27:04 17898] Initializing tracer in Lua mode.
+[T 18:27:04 17898] Initialising tags...
+[T 18:27:04 17898] ID set to 00000000000045EA_0000000000000006 (parent 00000000000045EA_0000000000000005)
+[T 18:27:04 17898] ==== Candidate to intercept: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:27:04 17898] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:27:04 17898] Executing the following tracer actions:
+[T 18:27:04 17898] Tracer actions:
+[T 18:27:04 17898] pre_invocations(0)
+[T 18:27:04 17898] post_invocations(0)
+[T 18:27:04 17898] trace_languages(1): [java]
+[T 18:27:04 17898] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:27:04 17898] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:27:04 17898] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:27:04 17947] Attempting to switch stdout/stderr to 150...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper.semmle.000045EA.slice.arm64: replacing existing signature
+[T 18:27:05 17950] Initializing tracer in Lua mode.
+[T 18:27:05 17950] Initialising tags...
+[T 18:27:05 17950] ID set to 000000000000461E_0000000000000001 (parent 00000000000045EA_0000000000000006)
+[T 18:27:05 17950] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:27:05 17950] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/lib/jspawnhelper ===
+[T 18:27:05 17950] Executing the following tracer actions:
+[T 18:27:05 17950] Tracer actions:
+[T 18:27:05 17950] pre_invocations(0)
+[T 18:27:05 17950] post_invocations(0)
+[T 18:27:05 17950] trace_languages(1): [java]
+[T 18:27:05 17950] Initializing tracer in Lua mode.
+[T 18:27:05 17950] Initialising tags...
+[T 18:27:05 17950] ID set to 000000000000461E_0000000000000002 (parent 000000000000461E_0000000000000001)
+[T 18:27:05 17950] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:27:05 17950] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:27:05 17950] Executing the following tracer actions:
+[T 18:27:05 17950] Tracer actions:
+[T 18:27:05 17950] pre_invocations(0)
+[T 18:27:05 17950] post_invocations(0)
+[T 18:27:05 17950] trace_languages(1): [java]
+[T 18:27:05 17950] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:27:05 17950] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:27:05 17950] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:42:49 18230] CodeQL CLI version 2.10.2
+[T 18:42:49 18230] Initializing tracer in Lua mode.
+[T 18:42:49 18230] Initialising tags...
+[T 18:42:49 18230] ID set to 0000000000004736_0000000000000001 (parent root)
+[T 18:42:49 18230] Initializing tracer in Lua mode.
+[T 18:42:49 18230] Initialising tags...
+[T 18:42:49 18230] ID set to 0000000000004736_0000000000000002 (parent root)
+[T 18:42:49 18230] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:42:49 18230] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:42:49 18230] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:42:49 18230] Executing the following tracer actions:
+[T 18:42:49 18230] Tracer actions:
+[T 18:42:49 18230] pre_invocations(0)
+[T 18:42:49 18230] post_invocations(0)
+[T 18:42:49 18230] trace_languages(1): [java]
+[T 18:42:49 18231] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.00004736.slice.x86_64: replacing existing signature
+[T 18:42:50 18230] Initializing tracer in Lua mode.
+[T 18:42:50 18230] Initialising tags...
+[T 18:42:50 18230] ID set to 0000000000004736_0000000000000003 (parent 0000000000004736_0000000000000002)
+[T 18:42:50 18230] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/bin/gradle) ====
+[T 18:42:50 18230] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/bin/gradle ===
+[T 18:42:50 18230] Executing the following tracer actions:
+[T 18:42:50 18230] Tracer actions:
+[T 18:42:50 18230] pre_invocations(0)
+[T 18:42:50 18230] post_invocations(0)
+[T 18:42:50 18230] trace_languages(1): [java]
+[T 18:42:50 18236] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/sh.semmle.00004736.slice.x86_64: replacing existing signature
+[T 18:42:50 18230] Initializing tracer in Lua mode.
+[T 18:42:50 18230] Initialising tags...
+[T 18:42:50 18230] ID set to 0000000000004736_0000000000000004 (parent 0000000000004736_0000000000000003)
+[T 18:42:50 18230] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle) ====
+[T 18:42:50 18230] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/libexec/bin/gradle ===
+[T 18:42:50 18230] Executing the following tracer actions:
+[T 18:42:50 18230] Tracer actions:
+[T 18:42:50 18230] pre_invocations(0)
+[T 18:42:50 18230] post_invocations(0)
+[T 18:42:50 18230] trace_languages(1): [java]
+[T 18:42:50 18230] Initializing tracer in Lua mode.
+[T 18:42:50 18230] Initialising tags...
+[T 18:42:50 18230] ID set to 0000000000004736_0000000000000005 (parent 0000000000004736_0000000000000004)
+[T 18:42:50 18230] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:42:50 18230] Lua: === Intercepted call to /bin/bash ===
+[T 18:42:50 18230] Executing the following tracer actions:
+[T 18:42:50 18230] Tracer actions:
+[T 18:42:50 18230] pre_invocations(0)
+[T 18:42:50 18230] post_invocations(0)
+[T 18:42:50 18230] trace_languages(1): [java]
+[T 18:42:50 18245] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/uname.semmle.00004744.slice.x86_64: replacing existing signature
+[T 18:42:50 18244] Initializing tracer in Lua mode.
+[T 18:42:50 18244] Initialising tags...
+[T 18:42:50 18244] ID set to 0000000000004744_0000000000000001 (parent 0000000000004736_0000000000000005)
+[T 18:42:50 18244] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:42:50 18244] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:42:50 18244] Executing the following tracer actions:
+[T 18:42:50 18244] Tracer actions:
+[T 18:42:50 18244] pre_invocations(0)
+[T 18:42:50 18244] post_invocations(0)
+[T 18:42:50 18244] trace_languages(1): [java]
+[T 18:42:50 18253] Attempting to switch stdout/stderr to 3...
+[T 18:42:50 18255] Attempting to switch stdout/stderr to 3...
+[T 18:42:50 18256] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/xargs.semmle.0000474B.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/sed.semmle.0000474C.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/tr.semmle.0000474E.slice.x86_64: replacing existing signature
+[T 18:42:51 18252] Initializing tracer in Lua mode.
+[T 18:42:51 18252] Initialising tags...
+[T 18:42:51 18252] ID set to 000000000000474C_0000000000000001 (parent 0000000000004736_0000000000000005)
+[T 18:42:51 18252] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:42:51 18252] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:42:51 18252] Executing the following tracer actions:
+[T 18:42:51 18252] Tracer actions:
+[T 18:42:51 18252] pre_invocations(0)
+[T 18:42:51 18252] post_invocations(0)
+[T 18:42:51 18252] trace_languages(1): [java]
+[T 18:42:51 18251] Initializing tracer in Lua mode.
+[T 18:42:51 18251] Initialising tags...
+[T 18:42:51 18251] ID set to 000000000000474B_0000000000000001 (parent 0000000000004736_0000000000000005)
+[T 18:42:51 18251] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:42:51 18251] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:42:51 18251] Executing the following tracer actions:
+[T 18:42:51 18251] Tracer actions:
+[T 18:42:51 18251] pre_invocations(0)
+[T 18:42:51 18251] post_invocations(0)
+[T 18:42:51 18251] trace_languages(1): [java]
+[T 18:42:51 18267] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/echo.semmle.0000474B.slice.x86_64: replacing existing signature
+[T 18:42:51 18254] Initializing tracer in Lua mode.
+[T 18:42:51 18254] Initialising tags...
+[T 18:42:51 18254] ID set to 000000000000474E_0000000000000001 (parent 0000000000004736_0000000000000005)
+[T 18:42:51 18254] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:42:51 18254] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:42:51 18254] Executing the following tracer actions:
+[T 18:42:51 18254] Tracer actions:
+[T 18:42:51 18254] pre_invocations(0)
+[T 18:42:51 18254] post_invocations(0)
+[T 18:42:51 18254] trace_languages(1): [java]
+[T 18:42:51 18270] Initializing tracer in Lua mode.
+[T 18:42:51 18270] Initialising tags...
+[T 18:42:51 18270] ID set to 000000000000475E_0000000000000001 (parent 000000000000474B_0000000000000001)
+[T 18:42:51 18270] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:42:51 18270] Lua: === Intercepted call to /bin/echo ===
+[T 18:42:51 18270] Executing the following tracer actions:
+[T 18:42:51 18270] Tracer actions:
+[T 18:42:51 18270] pre_invocations(0)
+[T 18:42:51 18270] post_invocations(0)
+[T 18:42:51 18270] trace_languages(1): [java]
+[T 18:42:51 18273] Initializing tracer in Lua mode.
+[T 18:42:51 18273] Initialising tags...
+[T 18:42:51 18273] ID set to 0000000000004761_0000000000000001 (parent 000000000000474B_0000000000000001)
+[T 18:42:51 18273] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:42:51 18273] Lua: === Intercepted call to /bin/echo ===
+[T 18:42:51 18273] Executing the following tracer actions:
+[T 18:42:51 18273] Tracer actions:
+[T 18:42:51 18273] pre_invocations(0)
+[T 18:42:51 18273] post_invocations(0)
+[T 18:42:51 18273] trace_languages(1): [java]
+[T 18:42:51 18277] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java.semmle.00004736.slice.arm64: replacing existing signature
+[T 18:42:51 18230] Initializing tracer in Lua mode.
+[T 18:42:51 18230] Initialising tags...
+[T 18:42:51 18230] ID set to 0000000000004736_0000000000000006 (parent 0000000000004736_0000000000000005)
+[T 18:42:51 18230] ==== Candidate to intercept: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:42:51 18230] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:42:51 18230] Executing the following tracer actions:
+[T 18:42:51 18230] Tracer actions:
+[T 18:42:51 18230] pre_invocations(0)
+[T 18:42:51 18230] post_invocations(0)
+[T 18:42:51 18230] trace_languages(1): [java]
+[T 18:42:51 18230] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:42:51 18230] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:42:51 18230] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:42:52 18288] Attempting to switch stdout/stderr to 150...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper.semmle.00004736.slice.arm64: replacing existing signature
+[T 18:42:52 18291] Initializing tracer in Lua mode.
+[T 18:42:52 18291] Initialising tags...
+[T 18:42:52 18291] ID set to 0000000000004773_0000000000000001 (parent 0000000000004736_0000000000000006)
+[T 18:42:52 18291] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:42:52 18291] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/lib/jspawnhelper ===
+[T 18:42:52 18291] Executing the following tracer actions:
+[T 18:42:52 18291] Tracer actions:
+[T 18:42:52 18291] pre_invocations(0)
+[T 18:42:52 18291] post_invocations(0)
+[T 18:42:52 18291] trace_languages(1): [java]
+[T 18:42:52 18291] Initializing tracer in Lua mode.
+[T 18:42:52 18291] Initialising tags...
+[T 18:42:52 18291] ID set to 0000000000004773_0000000000000002 (parent 0000000000004773_0000000000000001)
+[T 18:42:52 18291] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:42:52 18291] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:42:52 18291] Executing the following tracer actions:
+[T 18:42:52 18291] Tracer actions:
+[T 18:42:52 18291] pre_invocations(0)
+[T 18:42:52 18291] post_invocations(0)
+[T 18:42:52 18291] trace_languages(1): [java]
+[T 18:42:52 18291] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:42:52 18291] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:42:52 18291] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:47:56 18335] CodeQL CLI version 2.10.2
+[T 18:47:56 18335] Initializing tracer in Lua mode.
+[T 18:47:56 18335] Initialising tags...
+[T 18:47:56 18335] ID set to 000000000000479F_0000000000000001 (parent root)
+[T 18:47:56 18335] Initializing tracer in Lua mode.
+[T 18:47:56 18335] Initialising tags...
+[T 18:47:56 18335] ID set to 000000000000479F_0000000000000002 (parent root)
+[T 18:47:56 18335] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:47:56 18335] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:47:56 18335] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:47:56 18335] Executing the following tracer actions:
+[T 18:47:56 18335] Tracer actions:
+[T 18:47:56 18335] pre_invocations(0)
+[T 18:47:56 18335] post_invocations(0)
+[T 18:47:56 18335] trace_languages(1): [java]
+[T 18:47:56 18336] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.0000479F.slice.x86_64: replacing existing signature
+[T 18:47:56 18335] Initializing tracer in Lua mode.
+[T 18:47:56 18335] Initialising tags...
+[T 18:47:56 18335] ID set to 000000000000479F_0000000000000003 (parent 000000000000479F_0000000000000002)
+[T 18:47:56 18335] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/bin/gradle) ====
+[T 18:47:56 18335] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/bin/gradle ===
+[T 18:47:56 18335] Executing the following tracer actions:
+[T 18:47:56 18335] Tracer actions:
+[T 18:47:56 18335] pre_invocations(0)
+[T 18:47:56 18335] post_invocations(0)
+[T 18:47:56 18335] trace_languages(1): [java]
+[T 18:47:56 18340] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/sh.semmle.0000479F.slice.x86_64: replacing existing signature
+[T 18:47:57 18335] Initializing tracer in Lua mode.
+[T 18:47:57 18335] Initialising tags...
+[T 18:47:57 18335] ID set to 000000000000479F_0000000000000004 (parent 000000000000479F_0000000000000003)
+[T 18:47:57 18335] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle) ====
+[T 18:47:57 18335] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/libexec/bin/gradle ===
+[T 18:47:57 18335] Executing the following tracer actions:
+[T 18:47:57 18335] Tracer actions:
+[T 18:47:57 18335] pre_invocations(0)
+[T 18:47:57 18335] post_invocations(0)
+[T 18:47:57 18335] trace_languages(1): [java]
+[T 18:47:57 18335] Initializing tracer in Lua mode.
+[T 18:47:57 18335] Initialising tags...
+[T 18:47:57 18335] ID set to 000000000000479F_0000000000000005 (parent 000000000000479F_0000000000000004)
+[T 18:47:57 18335] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:47:57 18335] Lua: === Intercepted call to /bin/bash ===
+[T 18:47:57 18335] Executing the following tracer actions:
+[T 18:47:57 18335] Tracer actions:
+[T 18:47:57 18335] pre_invocations(0)
+[T 18:47:57 18335] post_invocations(0)
+[T 18:47:57 18335] trace_languages(1): [java]
+[T 18:47:57 18346] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/uname.semmle.000047A9.slice.x86_64: replacing existing signature
+[T 18:47:57 18345] Initializing tracer in Lua mode.
+[T 18:47:57 18345] Initialising tags...
+[T 18:47:57 18345] ID set to 00000000000047A9_0000000000000001 (parent 000000000000479F_0000000000000005)
+[T 18:47:57 18345] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:47:57 18345] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:47:57 18345] Executing the following tracer actions:
+[T 18:47:57 18345] Tracer actions:
+[T 18:47:57 18345] pre_invocations(0)
+[T 18:47:57 18345] post_invocations(0)
+[T 18:47:57 18345] trace_languages(1): [java]
+[T 18:47:57 18356] Attempting to switch stdout/stderr to 3...
+[T 18:47:57 18358] Attempting to switch stdout/stderr to 3...
+[T 18:47:57 18359] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/xargs.semmle.000047B2.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/sed.semmle.000047B3.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/tr.semmle.000047B5.slice.x86_64: replacing existing signature
+[T 18:47:57 18357] Initializing tracer in Lua mode.
+[T 18:47:57 18357] Initialising tags...
+[T 18:47:57 18357] ID set to 00000000000047B5_0000000000000001 (parent 000000000000479F_0000000000000005)
+[T 18:47:57 18357] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:47:57 18357] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:47:57 18357] Executing the following tracer actions:
+[T 18:47:57 18357] Tracer actions:
+[T 18:47:57 18357] pre_invocations(0)
+[T 18:47:57 18357] post_invocations(0)
+[T 18:47:57 18357] trace_languages(1): [java]
+[T 18:47:57 18354] Initializing tracer in Lua mode.
+[T 18:47:57 18354] Initialising tags...
+[T 18:47:57 18354] ID set to 00000000000047B2_0000000000000001 (parent 000000000000479F_0000000000000005)
+[T 18:47:57 18354] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:47:57 18354] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:47:57 18354] Executing the following tracer actions:
+[T 18:47:57 18354] Tracer actions:
+[T 18:47:57 18354] pre_invocations(0)
+[T 18:47:57 18354] post_invocations(0)
+[T 18:47:57 18354] trace_languages(1): [java]
+[T 18:47:57 18369] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/echo.semmle.000047B2.slice.x86_64: replacing existing signature
+[T 18:47:57 18355] Initializing tracer in Lua mode.
+[T 18:47:57 18355] Initialising tags...
+[T 18:47:57 18355] ID set to 00000000000047B3_0000000000000001 (parent 000000000000479F_0000000000000005)
+[T 18:47:57 18355] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:47:57 18355] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:47:57 18355] Executing the following tracer actions:
+[T 18:47:57 18355] Tracer actions:
+[T 18:47:57 18355] pre_invocations(0)
+[T 18:47:57 18355] post_invocations(0)
+[T 18:47:57 18355] trace_languages(1): [java]
+[T 18:47:58 18372] Initializing tracer in Lua mode.
+[T 18:47:58 18372] Initialising tags...
+[T 18:47:58 18372] ID set to 00000000000047C4_0000000000000001 (parent 00000000000047B2_0000000000000001)
+[T 18:47:58 18372] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:47:58 18372] Lua: === Intercepted call to /bin/echo ===
+[T 18:47:58 18372] Executing the following tracer actions:
+[T 18:47:58 18372] Tracer actions:
+[T 18:47:58 18372] pre_invocations(0)
+[T 18:47:58 18372] post_invocations(0)
+[T 18:47:58 18372] trace_languages(1): [java]
+[T 18:47:58 18375] Initializing tracer in Lua mode.
+[T 18:47:58 18375] Initialising tags...
+[T 18:47:58 18375] ID set to 00000000000047C7_0000000000000001 (parent 00000000000047B2_0000000000000001)
+[T 18:47:58 18375] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:47:58 18375] Lua: === Intercepted call to /bin/echo ===
+[T 18:47:58 18375] Executing the following tracer actions:
+[T 18:47:58 18375] Tracer actions:
+[T 18:47:58 18375] pre_invocations(0)
+[T 18:47:58 18375] post_invocations(0)
+[T 18:47:58 18375] trace_languages(1): [java]
+[T 18:47:58 18376] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java.semmle.0000479F.slice.arm64: replacing existing signature
+[T 18:47:58 18335] Initializing tracer in Lua mode.
+[T 18:47:58 18335] Initialising tags...
+[T 18:47:58 18335] ID set to 000000000000479F_0000000000000006 (parent 000000000000479F_0000000000000005)
+[T 18:47:58 18335] ==== Candidate to intercept: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:47:58 18335] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:47:58 18335] Executing the following tracer actions:
+[T 18:47:58 18335] Tracer actions:
+[T 18:47:58 18335] pre_invocations(0)
+[T 18:47:58 18335] post_invocations(0)
+[T 18:47:58 18335] trace_languages(1): [java]
+[T 18:47:58 18335] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:47:58 18335] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:47:58 18335] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:47:58 18384] Attempting to switch stdout/stderr to 150...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper.semmle.0000479F.slice.arm64: replacing existing signature
+[T 18:47:59 18387] Initializing tracer in Lua mode.
+[T 18:47:59 18387] Initialising tags...
+[T 18:47:59 18387] ID set to 00000000000047D3_0000000000000001 (parent 000000000000479F_0000000000000006)
+[T 18:47:59 18387] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:47:59 18387] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/lib/jspawnhelper ===
+[T 18:47:59 18387] Executing the following tracer actions:
+[T 18:47:59 18387] Tracer actions:
+[T 18:47:59 18387] pre_invocations(0)
+[T 18:47:59 18387] post_invocations(0)
+[T 18:47:59 18387] trace_languages(1): [java]
+[T 18:47:59 18387] Initializing tracer in Lua mode.
+[T 18:47:59 18387] Initialising tags...
+[T 18:47:59 18387] ID set to 00000000000047D3_0000000000000002 (parent 00000000000047D3_0000000000000001)
+[T 18:47:59 18387] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:47:59 18387] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:47:59 18387] Executing the following tracer actions:
+[T 18:47:59 18387] Tracer actions:
+[T 18:47:59 18387] pre_invocations(0)
+[T 18:47:59 18387] post_invocations(0)
+[T 18:47:59 18387] trace_languages(1): [java]
+[T 18:47:59 18387] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:47:59 18387] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:47:59 18387] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:48:47 18399] CodeQL CLI version 2.10.2
+[T 18:48:47 18399] Initializing tracer in Lua mode.
+[T 18:48:47 18399] Initialising tags...
+[T 18:48:47 18399] ID set to 00000000000047DF_0000000000000001 (parent root)
+[T 18:48:47 18399] Initializing tracer in Lua mode.
+[T 18:48:47 18399] Initialising tags...
+[T 18:48:47 18399] ID set to 00000000000047DF_0000000000000002 (parent root)
+[T 18:48:47 18399] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:48:47 18399] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:48:47 18399] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:48:47 18399] Executing the following tracer actions:
+[T 18:48:47 18399] Tracer actions:
+[T 18:48:47 18399] pre_invocations(0)
+[T 18:48:47 18399] post_invocations(0)
+[T 18:48:47 18399] trace_languages(1): [java]
+[T 18:49:30 18415] CodeQL CLI version 2.10.2
+[T 18:49:30 18415] Initializing tracer in Lua mode.
+[T 18:49:30 18415] Initialising tags...
+[T 18:49:30 18415] ID set to 00000000000047EF_0000000000000001 (parent root)
+[T 18:49:30 18415] Initializing tracer in Lua mode.
+[T 18:49:30 18415] Initialising tags...
+[T 18:49:30 18415] ID set to 00000000000047EF_0000000000000002 (parent root)
+[T 18:49:30 18415] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:49:30 18415] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:49:30 18415] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:49:30 18415] Executing the following tracer actions:
+[T 18:49:30 18415] Tracer actions:
+[T 18:49:30 18415] pre_invocations(0)
+[T 18:49:30 18415] post_invocations(0)
+[T 18:49:30 18415] trace_languages(1): [java]
+[T 18:49:30 18416] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.000047EF.slice.x86_64: replacing existing signature
+[T 18:49:30 18415] Initializing tracer in Lua mode.
+[T 18:49:30 18415] Initialising tags...
+[T 18:49:30 18415] ID set to 00000000000047EF_0000000000000003 (parent 00000000000047EF_0000000000000002)
+[T 18:49:30 18415] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/bin/gradle) ====
+[T 18:49:30 18415] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/bin/gradle ===
+[T 18:49:30 18415] Executing the following tracer actions:
+[T 18:49:30 18415] Tracer actions:
+[T 18:49:30 18415] pre_invocations(0)
+[T 18:49:30 18415] post_invocations(0)
+[T 18:49:30 18415] trace_languages(1): [java]
+[T 18:49:30 18420] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/sh.semmle.000047EF.slice.x86_64: replacing existing signature
+[T 18:49:30 18415] Initializing tracer in Lua mode.
+[T 18:49:30 18415] Initialising tags...
+[T 18:49:30 18415] ID set to 00000000000047EF_0000000000000004 (parent 00000000000047EF_0000000000000003)
+[T 18:49:30 18415] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle) ====
+[T 18:49:30 18415] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/libexec/bin/gradle ===
+[T 18:49:30 18415] Executing the following tracer actions:
+[T 18:49:30 18415] Tracer actions:
+[T 18:49:30 18415] pre_invocations(0)
+[T 18:49:30 18415] post_invocations(0)
+[T 18:49:30 18415] trace_languages(1): [java]
+[T 18:49:30 18415] Initializing tracer in Lua mode.
+[T 18:49:30 18415] Initialising tags...
+[T 18:49:30 18415] ID set to 00000000000047EF_0000000000000005 (parent 00000000000047EF_0000000000000004)
+[T 18:49:30 18415] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:49:30 18415] Lua: === Intercepted call to /bin/bash ===
+[T 18:49:30 18415] Executing the following tracer actions:
+[T 18:49:30 18415] Tracer actions:
+[T 18:49:30 18415] pre_invocations(0)
+[T 18:49:30 18415] post_invocations(0)
+[T 18:49:30 18415] trace_languages(1): [java]
+[T 18:49:30 18426] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/uname.semmle.000047F9.slice.x86_64: replacing existing signature
+[T 18:49:31 18425] Initializing tracer in Lua mode.
+[T 18:49:31 18425] Initialising tags...
+[T 18:49:31 18425] ID set to 00000000000047F9_0000000000000001 (parent 00000000000047EF_0000000000000005)
+[T 18:49:31 18425] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:49:31 18425] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:49:31 18425] Executing the following tracer actions:
+[T 18:49:31 18425] Tracer actions:
+[T 18:49:31 18425] pre_invocations(0)
+[T 18:49:31 18425] post_invocations(0)
+[T 18:49:31 18425] trace_languages(1): [java]
+[T 18:49:31 18434] Attempting to switch stdout/stderr to 3...
+[T 18:49:31 18436] Attempting to switch stdout/stderr to 3...
+[T 18:49:31 18437] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/xargs.semmle.00004800.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/sed.semmle.00004801.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/tr.semmle.00004803.slice.x86_64: replacing existing signature
+[T 18:49:31 18432] Initializing tracer in Lua mode.
+[T 18:49:31 18432] Initialising tags...
+[T 18:49:31 18432] ID set to 0000000000004800_0000000000000001 (parent 00000000000047EF_0000000000000005)
+[T 18:49:31 18432] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:49:31 18432] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:49:31 18432] Executing the following tracer actions:
+[T 18:49:31 18432] Tracer actions:
+[T 18:49:31 18432] pre_invocations(0)
+[T 18:49:31 18432] post_invocations(0)
+[T 18:49:31 18432] trace_languages(1): [java]
+[T 18:49:31 18445] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/echo.semmle.00004800.slice.x86_64: replacing existing signature
+[T 18:49:31 18433] Initializing tracer in Lua mode.
+[T 18:49:31 18433] Initialising tags...
+[T 18:49:31 18433] ID set to 0000000000004801_0000000000000001 (parent 00000000000047EF_0000000000000005)
+[T 18:49:31 18433] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:49:31 18433] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:49:31 18433] Executing the following tracer actions:
+[T 18:49:31 18433] Tracer actions:
+[T 18:49:31 18433] pre_invocations(0)
+[T 18:49:31 18433] post_invocations(0)
+[T 18:49:31 18433] trace_languages(1): [java]
+[T 18:49:31 18435] Initializing tracer in Lua mode.
+[T 18:49:31 18435] Initialising tags...
+[T 18:49:31 18435] ID set to 0000000000004803_0000000000000001 (parent 00000000000047EF_0000000000000005)
+[T 18:49:31 18435] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:49:31 18435] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:49:31 18435] Executing the following tracer actions:
+[T 18:49:31 18435] Tracer actions:
+[T 18:49:31 18435] pre_invocations(0)
+[T 18:49:31 18435] post_invocations(0)
+[T 18:49:31 18435] trace_languages(1): [java]
+[T 18:49:31 18448] Initializing tracer in Lua mode.
+[T 18:49:31 18448] Initialising tags...
+[T 18:49:31 18448] ID set to 0000000000004810_0000000000000001 (parent 0000000000004800_0000000000000001)
+[T 18:49:31 18448] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:49:31 18448] Lua: === Intercepted call to /bin/echo ===
+[T 18:49:31 18448] Executing the following tracer actions:
+[T 18:49:31 18448] Tracer actions:
+[T 18:49:31 18448] pre_invocations(0)
+[T 18:49:31 18448] post_invocations(0)
+[T 18:49:31 18448] trace_languages(1): [java]
+[T 18:49:31 18453] Initializing tracer in Lua mode.
+[T 18:49:31 18453] Initialising tags...
+[T 18:49:31 18453] ID set to 0000000000004815_0000000000000001 (parent 0000000000004800_0000000000000001)
+[T 18:49:31 18453] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:49:31 18453] Lua: === Intercepted call to /bin/echo ===
+[T 18:49:31 18453] Executing the following tracer actions:
+[T 18:49:31 18453] Tracer actions:
+[T 18:49:31 18453] pre_invocations(0)
+[T 18:49:31 18453] post_invocations(0)
+[T 18:49:31 18453] trace_languages(1): [java]
+[T 18:49:31 18454] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java.semmle.000047EF.slice.arm64: replacing existing signature
+[T 18:49:31 18415] Initializing tracer in Lua mode.
+[T 18:49:31 18415] Initialising tags...
+[T 18:49:31 18415] ID set to 00000000000047EF_0000000000000006 (parent 00000000000047EF_0000000000000005)
+[T 18:49:31 18415] ==== Candidate to intercept: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:49:31 18415] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:49:31 18415] Executing the following tracer actions:
+[T 18:49:31 18415] Tracer actions:
+[T 18:49:31 18415] pre_invocations(0)
+[T 18:49:31 18415] post_invocations(0)
+[T 18:49:31 18415] trace_languages(1): [java]
+[T 18:49:31 18415] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:49:31 18415] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:49:32 18415] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:49:32 18461] Attempting to switch stdout/stderr to 150...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper.semmle.000047EF.slice.arm64: replacing existing signature
+[T 18:49:32 18464] Initializing tracer in Lua mode.
+[T 18:49:32 18464] Initialising tags...
+[T 18:49:32 18464] ID set to 0000000000004820_0000000000000001 (parent 00000000000047EF_0000000000000006)
+[T 18:49:32 18464] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:49:32 18464] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/lib/jspawnhelper ===
+[T 18:49:32 18464] Executing the following tracer actions:
+[T 18:49:32 18464] Tracer actions:
+[T 18:49:32 18464] pre_invocations(0)
+[T 18:49:32 18464] post_invocations(0)
+[T 18:49:32 18464] trace_languages(1): [java]
+[T 18:49:32 18464] Initializing tracer in Lua mode.
+[T 18:49:32 18464] Initialising tags...
+[T 18:49:32 18464] ID set to 0000000000004820_0000000000000002 (parent 0000000000004820_0000000000000001)
+[T 18:49:32 18464] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:49:32 18464] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:49:32 18464] Executing the following tracer actions:
+[T 18:49:32 18464] Tracer actions:
+[T 18:49:32 18464] pre_invocations(0)
+[T 18:49:32 18464] post_invocations(0)
+[T 18:49:32 18464] trace_languages(1): [java]
+[T 18:49:32 18464] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:49:32 18464] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:49:32 18464] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:53:39 18551] CodeQL CLI version 2.10.2
+[T 18:53:39 18551] Initializing tracer in Lua mode.
+[T 18:53:39 18551] Initialising tags...
+[T 18:53:39 18551] ID set to 0000000000004877_0000000000000001 (parent root)
+[T 18:53:39 18551] Initializing tracer in Lua mode.
+[T 18:53:39 18551] Initialising tags...
+[T 18:53:39 18551] ID set to 0000000000004877_0000000000000002 (parent root)
+[T 18:53:39 18551] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:53:39 18551] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:53:39 18551] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:53:39 18551] Executing the following tracer actions:
+[T 18:53:39 18551] Tracer actions:
+[T 18:53:39 18551] pre_invocations(0)
+[T 18:53:39 18551] post_invocations(0)
+[T 18:53:39 18551] trace_languages(1): [java]
+[T 18:53:39 18552] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.00004877.slice.x86_64: replacing existing signature
+[T 18:53:40 18551] Initializing tracer in Lua mode.
+[T 18:53:40 18551] Initialising tags...
+[T 18:53:40 18551] ID set to 0000000000004877_0000000000000003 (parent 0000000000004877_0000000000000002)
+[T 18:53:40 18551] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/bin/gradle) ====
+[T 18:53:40 18551] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/bin/gradle ===
+[T 18:53:40 18551] Executing the following tracer actions:
+[T 18:53:40 18551] Tracer actions:
+[T 18:53:40 18551] pre_invocations(0)
+[T 18:53:40 18551] post_invocations(0)
+[T 18:53:40 18551] trace_languages(1): [java]
+[T 18:53:40 18556] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/sh.semmle.00004877.slice.x86_64: replacing existing signature
+[T 18:53:40 18551] Initializing tracer in Lua mode.
+[T 18:53:40 18551] Initialising tags...
+[T 18:53:40 18551] ID set to 0000000000004877_0000000000000004 (parent 0000000000004877_0000000000000003)
+[T 18:53:40 18551] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle) ====
+[T 18:53:40 18551] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/libexec/bin/gradle ===
+[T 18:53:40 18551] Executing the following tracer actions:
+[T 18:53:40 18551] Tracer actions:
+[T 18:53:40 18551] pre_invocations(0)
+[T 18:53:40 18551] post_invocations(0)
+[T 18:53:40 18551] trace_languages(1): [java]
+[T 18:53:40 18551] Initializing tracer in Lua mode.
+[T 18:53:40 18551] Initialising tags...
+[T 18:53:40 18551] ID set to 0000000000004877_0000000000000005 (parent 0000000000004877_0000000000000004)
+[T 18:53:40 18551] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:53:40 18551] Lua: === Intercepted call to /bin/bash ===
+[T 18:53:40 18551] Executing the following tracer actions:
+[T 18:53:40 18551] Tracer actions:
+[T 18:53:40 18551] pre_invocations(0)
+[T 18:53:40 18551] post_invocations(0)
+[T 18:53:40 18551] trace_languages(1): [java]
+[T 18:53:40 18564] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/uname.semmle.00004883.slice.x86_64: replacing existing signature
+[T 18:53:40 18563] Initializing tracer in Lua mode.
+[T 18:53:40 18563] Initialising tags...
+[T 18:53:40 18563] ID set to 0000000000004883_0000000000000001 (parent 0000000000004877_0000000000000005)
+[T 18:53:40 18563] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:53:40 18563] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:53:40 18563] Executing the following tracer actions:
+[T 18:53:40 18563] Tracer actions:
+[T 18:53:40 18563] pre_invocations(0)
+[T 18:53:40 18563] post_invocations(0)
+[T 18:53:40 18563] trace_languages(1): [java]
+[T 18:53:40 18572] Attempting to switch stdout/stderr to 3...
+[T 18:53:40 18575] Attempting to switch stdout/stderr to 3...
+[T 18:53:40 18576] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/xargs.semmle.0000488A.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/sed.semmle.0000488B.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/tr.semmle.0000488E.slice.x86_64: replacing existing signature
+[T 18:53:41 18574] Initializing tracer in Lua mode.
+[T 18:53:41 18574] Initialising tags...
+[T 18:53:41 18574] ID set to 000000000000488E_0000000000000001 (parent 0000000000004877_0000000000000005)
+[T 18:53:41 18574] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:53:41 18574] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:53:41 18574] Executing the following tracer actions:
+[T 18:53:41 18574] Tracer actions:
+[T 18:53:41 18574] pre_invocations(0)
+[T 18:53:41 18574] post_invocations(0)
+[T 18:53:41 18574] trace_languages(1): [java]
+[T 18:53:41 18570] Initializing tracer in Lua mode.
+[T 18:53:41 18570] Initialising tags...
+[T 18:53:41 18570] ID set to 000000000000488A_0000000000000001 (parent 0000000000004877_0000000000000005)
+[T 18:53:41 18570] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:53:41 18570] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:53:41 18570] Executing the following tracer actions:
+[T 18:53:41 18570] Tracer actions:
+[T 18:53:41 18570] pre_invocations(0)
+[T 18:53:41 18570] post_invocations(0)
+[T 18:53:41 18570] trace_languages(1): [java]
+[T 18:53:41 18585] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/echo.semmle.0000488A.slice.x86_64: replacing existing signature
+[T 18:53:41 18571] Initializing tracer in Lua mode.
+[T 18:53:41 18571] Initialising tags...
+[T 18:53:41 18571] ID set to 000000000000488B_0000000000000001 (parent 0000000000004877_0000000000000005)
+[T 18:53:41 18571] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:53:41 18571] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:53:41 18571] Executing the following tracer actions:
+[T 18:53:41 18571] Tracer actions:
+[T 18:53:41 18571] pre_invocations(0)
+[T 18:53:41 18571] post_invocations(0)
+[T 18:53:41 18571] trace_languages(1): [java]
+[T 18:53:41 18588] Initializing tracer in Lua mode.
+[T 18:53:41 18588] Initialising tags...
+[T 18:53:41 18588] ID set to 000000000000489C_0000000000000001 (parent 000000000000488A_0000000000000001)
+[T 18:53:41 18588] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:53:41 18588] Lua: === Intercepted call to /bin/echo ===
+[T 18:53:41 18588] Executing the following tracer actions:
+[T 18:53:41 18588] Tracer actions:
+[T 18:53:41 18588] pre_invocations(0)
+[T 18:53:41 18588] post_invocations(0)
+[T 18:53:41 18588] trace_languages(1): [java]
+[T 18:53:41 18591] Initializing tracer in Lua mode.
+[T 18:53:41 18591] Initialising tags...
+[T 18:53:41 18591] ID set to 000000000000489F_0000000000000001 (parent 000000000000488A_0000000000000001)
+[T 18:53:41 18591] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:53:41 18591] Lua: === Intercepted call to /bin/echo ===
+[T 18:53:41 18591] Executing the following tracer actions:
+[T 18:53:41 18591] Tracer actions:
+[T 18:53:41 18591] pre_invocations(0)
+[T 18:53:41 18591] post_invocations(0)
+[T 18:53:41 18591] trace_languages(1): [java]
+[T 18:53:41 18592] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java.semmle.00004877.slice.arm64: replacing existing signature
+[T 18:53:42 18551] Initializing tracer in Lua mode.
+[T 18:53:42 18551] Initialising tags...
+[T 18:53:42 18551] ID set to 0000000000004877_0000000000000006 (parent 0000000000004877_0000000000000005)
+[T 18:53:42 18551] ==== Candidate to intercept: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:53:42 18551] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:53:42 18551] Executing the following tracer actions:
+[T 18:53:42 18551] Tracer actions:
+[T 18:53:42 18551] pre_invocations(0)
+[T 18:53:42 18551] post_invocations(0)
+[T 18:53:42 18551] trace_languages(1): [java]
+[T 18:53:42 18551] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:53:42 18551] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:53:42 18551] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:53:42 18600] Attempting to switch stdout/stderr to 150...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper.semmle.00004877.slice.arm64: replacing existing signature
+[T 18:53:42 18603] Initializing tracer in Lua mode.
+[T 18:53:42 18603] Initialising tags...
+[T 18:53:42 18603] ID set to 00000000000048AB_0000000000000001 (parent 0000000000004877_0000000000000006)
+[T 18:53:42 18603] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:53:42 18603] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/lib/jspawnhelper ===
+[T 18:53:42 18603] Executing the following tracer actions:
+[T 18:53:42 18603] Tracer actions:
+[T 18:53:42 18603] pre_invocations(0)
+[T 18:53:42 18603] post_invocations(0)
+[T 18:53:42 18603] trace_languages(1): [java]
+[T 18:53:42 18603] Initializing tracer in Lua mode.
+[T 18:53:42 18603] Initialising tags...
+[T 18:53:42 18603] ID set to 00000000000048AB_0000000000000002 (parent 00000000000048AB_0000000000000001)
+[T 18:53:42 18603] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:53:42 18603] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:53:42 18603] Executing the following tracer actions:
+[T 18:53:42 18603] Tracer actions:
+[T 18:53:42 18603] pre_invocations(0)
+[T 18:53:42 18603] post_invocations(0)
+[T 18:53:42 18603] trace_languages(1): [java]
+[T 18:53:42 18603] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:53:42 18603] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:53:42 18603] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:54:50 18617] CodeQL CLI version 2.10.2
+[T 18:54:50 18617] Initializing tracer in Lua mode.
+[T 18:54:50 18617] Initialising tags...
+[T 18:54:50 18617] ID set to 00000000000048B9_0000000000000001 (parent root)
+[T 18:54:50 18617] Initializing tracer in Lua mode.
+[T 18:54:50 18617] Initialising tags...
+[T 18:54:50 18617] ID set to 00000000000048B9_0000000000000002 (parent root)
+[T 18:54:50 18617] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:54:50 18617] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:54:50 18617] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:54:50 18617] Executing the following tracer actions:
+[T 18:54:50 18617] Tracer actions:
+[T 18:54:50 18617] pre_invocations(0)
+[T 18:54:50 18617] post_invocations(0)
+[T 18:54:50 18617] trace_languages(1): [java]
+[T 18:54:50 18618] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.000048B9.slice.x86_64: replacing existing signature
+[T 18:54:50 18617] Initializing tracer in Lua mode.
+[T 18:54:50 18617] Initialising tags...
+[T 18:54:50 18617] ID set to 00000000000048B9_0000000000000003 (parent 00000000000048B9_0000000000000002)
+[T 18:54:50 18617] ==== Candidate to intercept: /opt/homebrew/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/bin/gradle) ====
+[T 18:54:50 18617] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/bin/gradle ===
+[T 18:54:50 18617] Executing the following tracer actions:
+[T 18:54:50 18617] Tracer actions:
+[T 18:54:50 18617] pre_invocations(0)
+[T 18:54:50 18617] post_invocations(0)
+[T 18:54:50 18617] trace_languages(1): [java]
+[T 18:54:50 18622] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/sh.semmle.000048B9.slice.x86_64: replacing existing signature
+[T 18:54:51 18617] Initializing tracer in Lua mode.
+[T 18:54:51 18617] Initialising tags...
+[T 18:54:51 18617] ID set to 00000000000048B9_0000000000000004 (parent 00000000000048B9_0000000000000003)
+[T 18:54:51 18617] ==== Candidate to intercept: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle (canonical: /opt/homebrew/Cellar/gradle/7.5.1/libexec/bin/gradle) ====
+[T 18:54:51 18617] Lua: === Intercepted call to /opt/homebrew/cellar/gradle/7.5.1/libexec/bin/gradle ===
+[T 18:54:51 18617] Executing the following tracer actions:
+[T 18:54:51 18617] Tracer actions:
+[T 18:54:51 18617] pre_invocations(0)
+[T 18:54:51 18617] post_invocations(0)
+[T 18:54:51 18617] trace_languages(1): [java]
+[T 18:54:51 18617] Initializing tracer in Lua mode.
+[T 18:54:51 18617] Initialising tags...
+[T 18:54:51 18617] ID set to 00000000000048B9_0000000000000005 (parent 00000000000048B9_0000000000000004)
+[T 18:54:51 18617] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:54:51 18617] Lua: === Intercepted call to /bin/bash ===
+[T 18:54:51 18617] Executing the following tracer actions:
+[T 18:54:51 18617] Tracer actions:
+[T 18:54:51 18617] pre_invocations(0)
+[T 18:54:51 18617] post_invocations(0)
+[T 18:54:51 18617] trace_languages(1): [java]
+[T 18:54:51 18629] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/uname.semmle.000048C4.slice.x86_64: replacing existing signature
+[T 18:54:51 18628] Initializing tracer in Lua mode.
+[T 18:54:51 18628] Initialising tags...
+[T 18:54:51 18628] ID set to 00000000000048C4_0000000000000001 (parent 00000000000048B9_0000000000000005)
+[T 18:54:51 18628] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:54:51 18628] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:54:51 18628] Executing the following tracer actions:
+[T 18:54:51 18628] Tracer actions:
+[T 18:54:51 18628] pre_invocations(0)
+[T 18:54:51 18628] post_invocations(0)
+[T 18:54:51 18628] trace_languages(1): [java]
+[T 18:54:51 18639] Attempting to switch stdout/stderr to 3...
+[T 18:54:51 18641] Attempting to switch stdout/stderr to 3...
+[T 18:54:51 18642] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/xargs.semmle.000048CD.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/sed.semmle.000048CE.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/tr.semmle.000048D0.slice.x86_64: replacing existing signature
+[T 18:54:51 18638] Initializing tracer in Lua mode.
+[T 18:54:51 18638] Initialising tags...
+[T 18:54:51 18638] ID set to 00000000000048CE_0000000000000001 (parent 00000000000048B9_0000000000000005)
+[T 18:54:51 18638] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:54:51 18638] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:54:51 18638] Executing the following tracer actions:
+[T 18:54:51 18638] Tracer actions:
+[T 18:54:51 18638] pre_invocations(0)
+[T 18:54:51 18638] post_invocations(0)
+[T 18:54:51 18638] trace_languages(1): [java]
+[T 18:54:52 18640] Initializing tracer in Lua mode.
+[T 18:54:52 18640] Initialising tags...
+[T 18:54:52 18640] ID set to 00000000000048D0_0000000000000001 (parent 00000000000048B9_0000000000000005)
+[T 18:54:52 18640] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:54:52 18640] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:54:52 18640] Executing the following tracer actions:
+[T 18:54:52 18640] Tracer actions:
+[T 18:54:52 18640] pre_invocations(0)
+[T 18:54:52 18640] post_invocations(0)
+[T 18:54:52 18640] trace_languages(1): [java]
+[T 18:54:52 18637] Initializing tracer in Lua mode.
+[T 18:54:52 18637] Initialising tags...
+[T 18:54:52 18637] ID set to 00000000000048CD_0000000000000001 (parent 00000000000048B9_0000000000000005)
+[T 18:54:52 18637] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:54:52 18637] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:54:52 18637] Executing the following tracer actions:
+[T 18:54:52 18637] Tracer actions:
+[T 18:54:52 18637] pre_invocations(0)
+[T 18:54:52 18637] post_invocations(0)
+[T 18:54:52 18637] trace_languages(1): [java]
+[T 18:54:52 18655] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/echo.semmle.000048CD.slice.x86_64: replacing existing signature
+[T 18:54:52 18658] Initializing tracer in Lua mode.
+[T 18:54:52 18658] Initialising tags...
+[T 18:54:52 18658] ID set to 00000000000048E2_0000000000000001 (parent 00000000000048CD_0000000000000001)
+[T 18:54:52 18658] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:54:52 18658] Lua: === Intercepted call to /bin/echo ===
+[T 18:54:52 18658] Executing the following tracer actions:
+[T 18:54:52 18658] Tracer actions:
+[T 18:54:52 18658] pre_invocations(0)
+[T 18:54:52 18658] post_invocations(0)
+[T 18:54:52 18658] trace_languages(1): [java]
+[T 18:54:52 18660] Initializing tracer in Lua mode.
+[T 18:54:52 18660] Initialising tags...
+[T 18:54:52 18660] ID set to 00000000000048E4_0000000000000001 (parent 00000000000048CD_0000000000000001)
+[T 18:54:52 18660] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:54:52 18660] Lua: === Intercepted call to /bin/echo ===
+[T 18:54:52 18660] Executing the following tracer actions:
+[T 18:54:52 18660] Tracer actions:
+[T 18:54:52 18660] pre_invocations(0)
+[T 18:54:52 18660] post_invocations(0)
+[T 18:54:52 18660] trace_languages(1): [java]
+[T 18:54:52 18661] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java.semmle.000048B9.slice.arm64: replacing existing signature
+[T 18:54:52 18617] Initializing tracer in Lua mode.
+[T 18:54:52 18617] Initialising tags...
+[T 18:54:52 18617] ID set to 00000000000048B9_0000000000000006 (parent 00000000000048B9_0000000000000005)
+[T 18:54:52 18617] ==== Candidate to intercept: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:54:52 18617] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:54:52 18617] Executing the following tracer actions:
+[T 18:54:52 18617] Tracer actions:
+[T 18:54:52 18617] pre_invocations(0)
+[T 18:54:52 18617] post_invocations(0)
+[T 18:54:52 18617] trace_languages(1): [java]
+[T 18:54:52 18617] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:54:52 18617] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:54:52 18617] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:54:52 18668] Attempting to switch stdout/stderr to 150...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper.semmle.000048B9.slice.arm64: replacing existing signature
+[T 18:54:53 18671] Initializing tracer in Lua mode.
+[T 18:54:53 18671] Initialising tags...
+[T 18:54:53 18671] ID set to 00000000000048EF_0000000000000001 (parent 00000000000048B9_0000000000000006)
+[T 18:54:53 18671] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:54:53 18671] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/lib/jspawnhelper ===
+[T 18:54:53 18671] Executing the following tracer actions:
+[T 18:54:53 18671] Tracer actions:
+[T 18:54:53 18671] pre_invocations(0)
+[T 18:54:53 18671] post_invocations(0)
+[T 18:54:53 18671] trace_languages(1): [java]
+[T 18:54:53 18671] Initializing tracer in Lua mode.
+[T 18:54:53 18671] Initialising tags...
+[T 18:54:53 18671] ID set to 00000000000048EF_0000000000000002 (parent 00000000000048EF_0000000000000001)
+[T 18:54:53 18671] ==== Candidate to intercept: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java (canonical: /opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 18:54:53 18671] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 18:54:53 18671] Executing the following tracer actions:
+[T 18:54:53 18671] Tracer actions:
+[T 18:54:53 18671] pre_invocations(0)
+[T 18:54:53 18671] post_invocations(0)
+[T 18:54:53 18671] trace_languages(1): [java]
+[T 18:54:53 18671] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:54:53 18671] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:54:53 18671] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:56:57 18706] CodeQL CLI version 2.10.2
+[T 18:56:57 18706] Initializing tracer in Lua mode.
+[T 18:56:57 18706] Initialising tags...
+[T 18:56:57 18706] ID set to 0000000000004912_0000000000000001 (parent root)
+[T 18:56:57 18706] Initializing tracer in Lua mode.
+[T 18:56:57 18706] Initialising tags...
+[T 18:56:57 18706] ID set to 0000000000004912_0000000000000002 (parent root)
+[T 18:56:57 18706] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:56:57 18706] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/runner-osx (canonical: /Users/brent/Documents/codeql/tools/osx64/runner-osx) ====
+[T 18:56:57 18706] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/runner-osx ===
+[T 18:56:57 18706] Executing the following tracer actions:
+[T 18:56:57 18706] Tracer actions:
+[T 18:56:57 18706] pre_invocations(0)
+[T 18:56:57 18706] post_invocations(0)
+[T 18:56:57 18706] trace_languages(1): [java]
+[T 18:56:57 18707] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/bash.semmle.00004912.slice.x86_64: replacing existing signature
+[T 18:56:57 18706] Initializing tracer in Lua mode.
+[T 18:56:57 18706] Initialising tags...
+[T 18:56:57 18706] ID set to 0000000000004912_0000000000000003 (parent 0000000000004912_0000000000000002)
+[T 18:56:57 18706] ==== Candidate to intercept: /Users/brent/Documents/codeql/java/tools/autobuild.sh (canonical: /Users/brent/Documents/codeql/java/tools/autobuild.sh) ====
+[T 18:56:57 18706] Lua: === Intercepted call to /users/brent/documents/codeql/java/tools/autobuild.sh ===
+[T 18:56:57 18706] Executing the following tracer actions:
+[T 18:56:57 18706] Tracer actions:
+[T 18:56:57 18706] pre_invocations(0)
+[T 18:56:57 18706] post_invocations(0)
+[T 18:56:57 18706] trace_languages(1): [java]
+[T 18:56:57 18712] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.00004917.slice.arm64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.00004917.slice.arm64
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java.semmle.00004917.slice.arm64: replacing existing signature
+[T 18:56:57 18711] Initializing tracer in Lua mode.
+[T 18:56:57 18711] Initialising tags...
+[T 18:56:57 18711] ID set to 0000000000004917_0000000000000001 (parent 0000000000004912_0000000000000003)
+[T 18:56:57 18711] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java (canonical: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/bin/java) ====
+[T 18:56:57 18711] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/java-aarch64/bin/java ===
+[T 18:56:57 18711] Executing the following tracer actions:
+[T 18:56:57 18711] Tracer actions:
+[T 18:56:57 18711] pre_invocations(0)
+[T 18:56:57 18711] post_invocations(0)
+[T 18:56:57 18711] trace_languages(1): [java]
+[T 18:56:57 18711] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:56:57 18711] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:56:57 18711] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:56:57 18723] Attempting to switch stdout/stderr to 20...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Users/brent/Documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper.semmle.00004917.slice.arm64: replacing existing signature
+[T 18:56:58 18726] Initializing tracer in Lua mode.
+[T 18:56:58 18726] Initialising tags...
+[T 18:56:58 18726] ID set to 0000000000004926_0000000000000001 (parent 0000000000004917_0000000000000001)
+[T 18:56:58 18726] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 18:56:58 18726] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 18:56:58 18726] Executing the following tracer actions:
+[T 18:56:58 18726] Tracer actions:
+[T 18:56:58 18726] pre_invocations(0)
+[T 18:56:58 18726] post_invocations(0)
+[T 18:56:58 18726] trace_languages(1): [java]
+[T 18:56:58 18727] Attempting to switch stdout/stderr to 4...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/chmod.semmle.00004926.slice.x86_64: replacing existing signature
+[T 18:56:58 18726] Initializing tracer in Lua mode.
+[T 18:56:58 18726] Initialising tags...
+[T 18:56:58 18726] ID set to 0000000000004926_0000000000000002 (parent 0000000000004926_0000000000000001)
+[T 18:56:58 18726] ==== Candidate to intercept: /bin/chmod (canonical: /bin/chmod) ====
+[T 18:56:58 18726] Lua: === Intercepted call to /bin/chmod ===
+[T 18:56:58 18726] Executing the following tracer actions:
+[T 18:56:58 18726] Tracer actions:
+[T 18:56:58 18726] pre_invocations(0)
+[T 18:56:58 18726] post_invocations(0)
+[T 18:56:58 18726] trace_languages(1): [java]
+[T 18:56:58 18731] Initializing tracer in Lua mode.
+[T 18:56:58 18731] Initialising tags...
+[T 18:56:58 18731] ID set to 000000000000492B_0000000000000001 (parent 0000000000004917_0000000000000001)
+[T 18:56:58 18731] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 18:56:58 18731] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 18:56:58 18731] Executing the following tracer actions:
+[T 18:56:58 18731] Tracer actions:
+[T 18:56:58 18731] pre_invocations(0)
+[T 18:56:58 18731] post_invocations(0)
+[T 18:56:58 18731] trace_languages(1): [java]
+[T 18:56:58 18732] Attempting to switch stdout/stderr to 4...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/sh.semmle.0000492B.slice.x86_64: replacing existing signature
+[T 18:56:58 18731] Initializing tracer in Lua mode.
+[T 18:56:58 18731] Initialising tags...
+[T 18:56:58 18731] ID set to 000000000000492B_0000000000000002 (parent 000000000000492B_0000000000000001)
+[T 18:56:58 18731] ==== Candidate to intercept: ./gradlew (canonical: /Users/brent/IdeaProjects/HelloWorld/gradlew) ====
+[T 18:56:58 18731] Lua: === Intercepted call to /users/brent/ideaprojects/helloworld/gradlew ===
+[T 18:56:58 18731] Executing the following tracer actions:
+[T 18:56:58 18731] Tracer actions:
+[T 18:56:58 18731] pre_invocations(0)
+[T 18:56:58 18731] post_invocations(0)
+[T 18:56:58 18731] trace_languages(1): [java]
+[T 18:56:58 18731] Initializing tracer in Lua mode.
+[T 18:56:58 18731] Initialising tags...
+[T 18:56:58 18731] ID set to 000000000000492B_0000000000000003 (parent 000000000000492B_0000000000000002)
+[T 18:56:58 18731] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:56:58 18731] Lua: === Intercepted call to /bin/bash ===
+[T 18:56:58 18731] Executing the following tracer actions:
+[T 18:56:58 18731] Tracer actions:
+[T 18:56:58 18731] pre_invocations(0)
+[T 18:56:58 18731] post_invocations(0)
+[T 18:56:58 18731] trace_languages(1): [java]
+[T 18:56:58 18738] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/uname.semmle.00004931.slice.x86_64: replacing existing signature
+[T 18:56:59 18737] Initializing tracer in Lua mode.
+[T 18:56:59 18737] Initialising tags...
+[T 18:56:59 18737] ID set to 0000000000004931_0000000000000001 (parent 000000000000492B_0000000000000003)
+[T 18:56:59 18737] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:56:59 18737] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:56:59 18737] Executing the following tracer actions:
+[T 18:56:59 18737] Tracer actions:
+[T 18:56:59 18737] pre_invocations(0)
+[T 18:56:59 18737] post_invocations(0)
+[T 18:56:59 18737] trace_languages(1): [java]
+[T 18:56:59 18743] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/which.semmle.00004936.slice.x86_64: replacing existing signature
+[T 18:56:59 18742] Initializing tracer in Lua mode.
+[T 18:56:59 18742] Initialising tags...
+[T 18:56:59 18742] ID set to 0000000000004936_0000000000000001 (parent 000000000000492B_0000000000000003)
+[T 18:56:59 18742] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which) ====
+[T 18:56:59 18742] Lua: === Intercepted call to /usr/bin/which ===
+[T 18:56:59 18742] Executing the following tracer actions:
+[T 18:56:59 18742] Tracer actions:
+[T 18:56:59 18742] pre_invocations(0)
+[T 18:56:59 18742] post_invocations(0)
+[T 18:56:59 18742] trace_languages(1): [java]
+[T 18:56:59 18751] Attempting to switch stdout/stderr to 3...
+[T 18:56:59 18753] Attempting to switch stdout/stderr to 3...
+[T 18:56:59 18754] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/xargs.semmle.0000493D.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/sed.semmle.0000493E.slice.x86_64: replacing existing signature
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/tr.semmle.00004940.slice.x86_64: replacing existing signature
+[T 18:56:59 18750] Initializing tracer in Lua mode.
+[T 18:56:59 18750] Initialising tags...
+[T 18:56:59 18750] ID set to 000000000000493E_0000000000000001 (parent 000000000000492B_0000000000000003)
+[T 18:56:59 18750] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:56:59 18750] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:56:59 18750] Executing the following tracer actions:
+[T 18:56:59 18750] Tracer actions:
+[T 18:56:59 18750] pre_invocations(0)
+[T 18:56:59 18750] post_invocations(0)
+[T 18:56:59 18750] trace_languages(1): [java]
+[T 18:56:59 18749] Initializing tracer in Lua mode.
+[T 18:56:59 18749] Initialising tags...
+[T 18:56:59 18749] ID set to 000000000000493D_0000000000000001 (parent 000000000000492B_0000000000000003)
+[T 18:56:59 18749] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:56:59 18749] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:56:59 18749] Executing the following tracer actions:
+[T 18:56:59 18749] Tracer actions:
+[T 18:56:59 18749] pre_invocations(0)
+[T 18:56:59 18749] post_invocations(0)
+[T 18:56:59 18749] trace_languages(1): [java]
+[T 18:56:59 18763] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/bin/echo.semmle.0000493D.slice.x86_64: replacing existing signature
+[T 18:57:00 18752] Initializing tracer in Lua mode.
+[T 18:57:00 18752] Initialising tags...
+[T 18:57:00 18752] ID set to 0000000000004940_0000000000000001 (parent 000000000000492B_0000000000000003)
+[T 18:57:00 18752] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:57:00 18752] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:57:00 18752] Executing the following tracer actions:
+[T 18:57:00 18752] Tracer actions:
+[T 18:57:00 18752] pre_invocations(0)
+[T 18:57:00 18752] post_invocations(0)
+[T 18:57:00 18752] trace_languages(1): [java]
+[T 18:57:00 18766] Initializing tracer in Lua mode.
+[T 18:57:00 18766] Initialising tags...
+[T 18:57:00 18766] ID set to 000000000000494E_0000000000000001 (parent 000000000000493D_0000000000000001)
+[T 18:57:00 18766] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:57:00 18766] Lua: === Intercepted call to /bin/echo ===
+[T 18:57:00 18766] Executing the following tracer actions:
+[T 18:57:00 18766] Tracer actions:
+[T 18:57:00 18766] pre_invocations(0)
+[T 18:57:00 18766] post_invocations(0)
+[T 18:57:00 18766] trace_languages(1): [java]
+[T 18:57:00 18769] Initializing tracer in Lua mode.
+[T 18:57:00 18769] Initialising tags...
+[T 18:57:00 18769] ID set to 0000000000004951_0000000000000001 (parent 000000000000493D_0000000000000001)
+[T 18:57:00 18769] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:57:00 18769] Lua: === Intercepted call to /bin/echo ===
+[T 18:57:00 18769] Executing the following tracer actions:
+[T 18:57:00 18769] Tracer actions:
+[T 18:57:00 18769] pre_invocations(0)
+[T 18:57:00 18769] post_invocations(0)
+[T 18:57:00 18769] trace_languages(1): [java]
+[T 18:57:00 18770] Attempting to switch stdout/stderr to 3...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/usr/bin/java.semmle.0000492B.slice.x86_64: replacing existing signature
+[T 18:57:00 18731] Initializing tracer in Lua mode.
+[T 18:57:00 18731] Initialising tags...
+[T 18:57:00 18731] ID set to 000000000000492B_0000000000000004 (parent 000000000000492B_0000000000000003)
+[T 18:57:00 18731] ==== Candidate to intercept: /usr/bin/java (canonical: /usr/bin/java) ====
+[T 18:57:00 18731] Lua: === Intercepted call to /usr/bin/java ===
+[T 18:57:00 18731] Executing the following tracer actions:
+[T 18:57:00 18731] Tracer actions:
+[T 18:57:00 18731] pre_invocations(0)
+[T 18:57:00 18731] post_invocations(0)
+[T 18:57:00 18731] trace_languages(1): [java]
+[T 18:57:00 18774] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java.semmle.0000492B.slice.x86_64
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java.semmle.0000492B.slice.x86_64: replacing existing signature
+[T 18:57:00 18731] Initializing tracer in Lua mode.
+[T 18:57:00 18731] Initialising tags...
+[T 18:57:00 18731] ID set to 000000000000492B_0000000000000005 (parent 000000000000492B_0000000000000004)
+[T 18:57:00 18731] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java) ====
+[T 18:57:00 18731] Lua: === Intercepted call to /library/java/javavirtualmachines/microsoft-11.jdk/contents/home/bin/java ===
+[T 18:57:00 18731] Executing the following tracer actions:
+[T 18:57:00 18731] Tracer actions:
+[T 18:57:00 18731] pre_invocations(0)
+[T 18:57:00 18731] post_invocations(0)
+[T 18:57:00 18731] trace_languages(1): [java]
+[T 18:57:00 18731] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:57:00 18731] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:57:01 18731] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:57:01 18779] Attempting to switch stdout/stderr to 110...
+/Users/brent/IdeaProjects/HelloWorld/java-database/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/jspawnhelper.semmle.0000492B.slice.x86_64: replacing existing signature
+[T 18:57:02 18782] Initializing tracer in Lua mode.
+[T 18:57:02 18782] Initialising tags...
+[T 18:57:02 18782] ID set to 000000000000495E_0000000000000001 (parent 000000000000492B_0000000000000005)
+[T 18:57:02 18782] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:57:02 18782] Lua: === Intercepted call to /library/java/javavirtualmachines/microsoft-11.jdk/contents/home/lib/jspawnhelper ===
+[T 18:57:02 18782] Executing the following tracer actions:
+[T 18:57:02 18782] Tracer actions:
+[T 18:57:02 18782] pre_invocations(0)
+[T 18:57:02 18782] post_invocations(0)
+[T 18:57:02 18782] trace_languages(1): [java]
+[T 18:57:02 18782] Initializing tracer in Lua mode.
+[T 18:57:02 18782] Initialising tags...
+[T 18:57:02 18782] ID set to 000000000000495E_0000000000000002 (parent 000000000000495E_0000000000000001)
+[T 18:57:02 18782] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java) ====
+[T 18:57:02 18782] Lua: === Intercepted call to /library/java/javavirtualmachines/microsoft-11.jdk/contents/home/bin/java ===
+[T 18:57:02 18782] Executing the following tracer actions:
+[T 18:57:02 18782] Tracer actions:
+[T 18:57:02 18782] pre_invocations(0)
+[T 18:57:02 18782] post_invocations(0)
+[T 18:57:02 18782] trace_languages(1): [java]
+[T 18:57:02 18782] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:57:02 18782] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:57:02 18782] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:57:06 18785] Initializing tracer in Lua mode.
+[T 18:57:06 18785] Initialising tags...
+[T 18:57:06 18785] ID set to 0000000000004961_0000000000000001 (parent 0000000000004917_0000000000000001)
+[T 18:57:06 18785] ==== Candidate to intercept: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /Users/brent/Documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 18:57:06 18785] Lua: === Intercepted call to /users/brent/documents/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 18:57:06 18785] Executing the following tracer actions:
+[T 18:57:06 18785] Tracer actions:
+[T 18:57:06 18785] pre_invocations(0)
+[T 18:57:06 18785] post_invocations(0)
+[T 18:57:06 18785] trace_languages(1): [java]
+[T 18:57:06 18785] Initializing tracer in Lua mode.
+[T 18:57:06 18785] Initialising tags...
+[T 18:57:06 18785] ID set to 0000000000004961_0000000000000002 (parent 0000000000004961_0000000000000001)
+[T 18:57:06 18785] ==== Candidate to intercept: ./gradlew (canonical: /Users/brent/IdeaProjects/HelloWorld/gradlew) ====
+[T 18:57:06 18785] Lua: === Intercepted call to /users/brent/ideaprojects/helloworld/gradlew ===
+[T 18:57:06 18785] Executing the following tracer actions:
+[T 18:57:06 18785] Tracer actions:
+[T 18:57:06 18785] pre_invocations(0)
+[T 18:57:06 18785] post_invocations(0)
+[T 18:57:06 18785] trace_languages(1): [java]
+[T 18:57:06 18785] Initializing tracer in Lua mode.
+[T 18:57:06 18785] Initialising tags...
+[T 18:57:06 18785] ID set to 0000000000004961_0000000000000003 (parent 0000000000004961_0000000000000002)
+[T 18:57:06 18785] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:57:06 18785] Lua: === Intercepted call to /bin/bash ===
+[T 18:57:06 18785] Executing the following tracer actions:
+[T 18:57:06 18785] Tracer actions:
+[T 18:57:06 18785] pre_invocations(0)
+[T 18:57:06 18785] post_invocations(0)
+[T 18:57:06 18785] trace_languages(1): [java]
+[T 18:57:06 18787] Initializing tracer in Lua mode.
+[T 18:57:06 18787] Initialising tags...
+[T 18:57:06 18787] ID set to 0000000000004963_0000000000000001 (parent 0000000000004961_0000000000000003)
+[T 18:57:06 18787] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:57:06 18787] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:57:06 18787] Executing the following tracer actions:
+[T 18:57:06 18787] Tracer actions:
+[T 18:57:06 18787] pre_invocations(0)
+[T 18:57:06 18787] post_invocations(0)
+[T 18:57:06 18787] trace_languages(1): [java]
+[T 18:57:06 18788] Initializing tracer in Lua mode.
+[T 18:57:06 18788] Initialising tags...
+[T 18:57:06 18788] ID set to 0000000000004964_0000000000000001 (parent 0000000000004961_0000000000000003)
+[T 18:57:06 18788] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which) ====
+[T 18:57:06 18788] Lua: === Intercepted call to /usr/bin/which ===
+[T 18:57:06 18788] Executing the following tracer actions:
+[T 18:57:06 18788] Tracer actions:
+[T 18:57:06 18788] pre_invocations(0)
+[T 18:57:06 18788] post_invocations(0)
+[T 18:57:06 18788] trace_languages(1): [java]
+[T 18:57:06 18791] Initializing tracer in Lua mode.
+[T 18:57:06 18791] Initialising tags...
+[T 18:57:06 18792] Initializing tracer in Lua mode.
+[T 18:57:06 18792] Initialising tags...
+[T 18:57:06 18791] ID set to 0000000000004967_0000000000000001 (parent 0000000000004961_0000000000000003)
+[T 18:57:06 18791] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 18:57:06 18791] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 18:57:06 18791] Executing the following tracer actions:
+[T 18:57:06 18793] Initializing tracer in Lua mode.
+[T 18:57:06 18791] Tracer actions:
+[T 18:57:06 18791] pre_invocations(0)
+[T 18:57:06 18791] post_invocations(0)
+[T 18:57:06 18791] trace_languages(1): [java]
+[T 18:57:06 18793] Initialising tags...
+[T 18:57:06 18792] ID set to 0000000000004968_0000000000000001 (parent 0000000000004961_0000000000000003)
+[T 18:57:06 18792] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 18:57:06 18792] Lua: === Intercepted call to /usr/bin/sed ===
+[T 18:57:06 18792] Executing the following tracer actions:
+[T 18:57:06 18792] Tracer actions:
+[T 18:57:06 18792] pre_invocations(0)
+[T 18:57:06 18792] post_invocations(0)
+[T 18:57:06 18792] trace_languages(1): [java]
+[T 18:57:06 18793] ID set to 0000000000004969_0000000000000001 (parent 0000000000004961_0000000000000003)
+[T 18:57:06 18793] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 18:57:06 18793] Lua: === Intercepted call to /usr/bin/tr ===
+[T 18:57:06 18793] Executing the following tracer actions:
+[T 18:57:06 18793] Tracer actions:
+[T 18:57:06 18793] pre_invocations(0)
+[T 18:57:06 18793] post_invocations(0)
+[T 18:57:06 18793] trace_languages(1): [java]
+[T 18:57:06 18794] Initializing tracer in Lua mode.
+[T 18:57:06 18794] Initialising tags...
+[T 18:57:06 18794] ID set to 000000000000496A_0000000000000001 (parent 0000000000004967_0000000000000001)
+[T 18:57:06 18794] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:57:06 18794] Lua: === Intercepted call to /bin/echo ===
+[T 18:57:06 18794] Executing the following tracer actions:
+[T 18:57:06 18794] Tracer actions:
+[T 18:57:06 18794] pre_invocations(0)
+[T 18:57:06 18794] post_invocations(0)
+[T 18:57:06 18794] trace_languages(1): [java]
+[T 18:57:06 18795] Initializing tracer in Lua mode.
+[T 18:57:06 18795] Initialising tags...
+[T 18:57:06 18795] ID set to 000000000000496B_0000000000000001 (parent 0000000000004967_0000000000000001)
+[T 18:57:06 18795] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 18:57:06 18795] Lua: === Intercepted call to /bin/echo ===
+[T 18:57:06 18795] Executing the following tracer actions:
+[T 18:57:06 18795] Tracer actions:
+[T 18:57:06 18795] pre_invocations(0)
+[T 18:57:06 18795] post_invocations(0)
+[T 18:57:06 18795] trace_languages(1): [java]
+[T 18:57:06 18785] Initializing tracer in Lua mode.
+[T 18:57:06 18785] Initialising tags...
+[T 18:57:06 18785] ID set to 0000000000004961_0000000000000004 (parent 0000000000004961_0000000000000003)
+[T 18:57:06 18785] ==== Candidate to intercept: /usr/bin/java (canonical: /usr/bin/java) ====
+[T 18:57:06 18785] Lua: === Intercepted call to /usr/bin/java ===
+[T 18:57:06 18785] Executing the following tracer actions:
+[T 18:57:06 18785] Tracer actions:
+[T 18:57:06 18785] pre_invocations(0)
+[T 18:57:06 18785] post_invocations(0)
+[T 18:57:06 18785] trace_languages(1): [java]
+[T 18:57:06 18785] Initializing tracer in Lua mode.
+[T 18:57:06 18785] Initialising tags...
+[T 18:57:06 18785] ID set to 0000000000004961_0000000000000005 (parent 0000000000004961_0000000000000004)
+[T 18:57:06 18785] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java) ====
+[T 18:57:06 18785] Lua: === Intercepted call to /library/java/javavirtualmachines/microsoft-11.jdk/contents/home/bin/java ===
+[T 18:57:06 18785] Executing the following tracer actions:
+[T 18:57:06 18785] Tracer actions:
+[T 18:57:06 18785] pre_invocations(0)
+[T 18:57:06 18785] post_invocations(0)
+[T 18:57:06 18785] trace_languages(1): [java]
+[T 18:57:06 18785] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:57:06 18785] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:57:06 18785] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:57:07 18796] Initializing tracer in Lua mode.
+[T 18:57:07 18796] Initialising tags...
+[T 18:57:07 18796] ID set to 000000000000496C_0000000000000001 (parent 0000000000004961_0000000000000005)
+[T 18:57:07 18796] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:57:07 18796] Lua: === Intercepted call to /library/java/javavirtualmachines/microsoft-11.jdk/contents/home/lib/jspawnhelper ===
+[T 18:57:07 18796] Executing the following tracer actions:
+[T 18:57:07 18796] Tracer actions:
+[T 18:57:07 18796] pre_invocations(0)
+[T 18:57:07 18796] post_invocations(0)
+[T 18:57:07 18796] trace_languages(1): [java]
+[T 18:57:07 18796] Initializing tracer in Lua mode.
+[T 18:57:07 18796] Initialising tags...
+[T 18:57:07 18796] ID set to 000000000000496C_0000000000000002 (parent 000000000000496C_0000000000000001)
+[T 18:57:07 18796] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/microsoft-11.jdk/Contents/Home/bin/java) ====
+[T 18:57:07 18796] Lua: === Intercepted call to /library/java/javavirtualmachines/microsoft-11.jdk/contents/home/bin/java ===
+[T 18:57:07 18796] Executing the following tracer actions:
+[T 18:57:07 18796] Tracer actions:
+[T 18:57:07 18796] pre_invocations(0)
+[T 18:57:07 18796] post_invocations(0)
+[T 18:57:07 18796] trace_languages(1): [java]
+[T 18:57:07 18796] Passing through -javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 18:57:07 18796] Passing through -Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:57:07 18796] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/brent/Documents/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).

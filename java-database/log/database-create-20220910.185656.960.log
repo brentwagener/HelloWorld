@@ -1,0 +1,146 @@
+[2022-09-10 18:56:56] This is codeql database create java-database --language=java --overwrite
+[2022-09-10 18:56:56] Log file was started late.
+[2022-09-10 18:56:56] [PROGRESS] database create> Initializing database at /Users/brent/IdeaProjects/HelloWorld/java-database.
+[2022-09-10 18:56:56] Running plumbing command: codeql database init --overwrite --language=java --source-root=/Users/brent/IdeaProjects/HelloWorld --allow-missing-source-root=false --allow-already-existing -- /Users/brent/IdeaProjects/HelloWorld/java-database
+[2022-09-10 18:56:56] [PROGRESS] database init> Counting lines of code in /Users/brent/IdeaProjects/HelloWorld
+[2022-09-10 18:56:57] [PROGRESS] database init> Resolving extractor java.
+[2022-09-10 18:56:57] Calling plumbing command: codeql resolve languages --format=json
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Scanning for [codeql-extractor.yml] from /Users/brent/Documents/codeql/.codeqlmanifest.json
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/go/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/python/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/java/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/html/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/xml/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/properties/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/cpp/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/csv/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/csharp/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/javascript/codeql-extractor.yml.
+[2022-09-10 18:56:57] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/ruby/codeql-extractor.yml.
+[2022-09-10 18:56:57] Plumbing command codeql resolve languages completed:
+                      {
+                        "extractors" : {
+                          "go" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/go"
+                            }
+                          ],
+                          "python" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/python"
+                            }
+                          ],
+                          "java" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/java",
+                              "extractor_options" : {
+                                "exclude" : {
+                                  "title" : "A glob excluding files from analysis.",
+                                  "description" : "A glob indicating what files to exclude from the analysis.\n",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          ],
+                          "html" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/html"
+                            }
+                          ],
+                          "xml" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/xml"
+                            }
+                          ],
+                          "properties" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/properties"
+                            }
+                          ],
+                          "cpp" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/cpp"
+                            }
+                          ],
+                          "csv" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/csv"
+                            }
+                          ],
+                          "csharp" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/csharp",
+                              "extractor_options" : {
+                                "trap" : {
+                                  "title" : "Options pertaining to TRAP.",
+                                  "description" : "Options pertaining to TRAP.",
+                                  "type" : "object",
+                                  "properties" : {
+                                    "compression" : {
+                                      "title" : "Controls compression for the TRAP files written by the extractor.",
+                                      "description" : "This option is only intended for use in debugging the extractor. Accepted values are 'brotli' (the default, to write brotli-compressed TRAP), 'gzip', and 'none' (to write uncompressed TRAP).\n",
+                                      "type" : "string",
+                                      "pattern" : "^(none|gzip|brotli)$"
+                                    }
+                                  }
+                                },
+                                "buildless" : {
+                                  "title" : "Whether to use buildless (standalone) extraction.",
+                                  "description" : "A value indicating, which type of extraction the autobuilder should perform. If 'true', then the standalone extractor will be used, otherwise tracing extraction will be performed. The default is 'false'. Note that buildless extraction will generally yield less accurate analysis results, and should only be used in cases where it is not possible to build the code (for example if it uses inaccessible dependencies).\n",
+                                  "type" : "string",
+                                  "pattern" : "^(false|true)$"
+                                }
+                              }
+                            }
+                          ],
+                          "javascript" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/javascript"
+                            }
+                          ],
+                          "ruby" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/ruby"
+                            }
+                          ]
+                        }
+                      }
+[2022-09-10 18:56:57] [DETAILS] database init> Found candidate extractor root for java: /Users/brent/Documents/codeql/java.
+[2022-09-10 18:56:57] [PROGRESS] database init> Successfully loaded extractor Java (java) from /Users/brent/Documents/codeql/java.
+[2022-09-10 18:56:57] [PROGRESS] database init> Created skeleton CodeQL database at /Users/brent/IdeaProjects/HelloWorld/java-database. This in-progress database is ready to be populated by an extractor.
+[2022-09-10 18:56:57] Plumbing command codeql database init completed.
+[2022-09-10 18:56:57] Using autobuild script /Users/brent/Documents/codeql/java/tools/autobuild.sh.
+[2022-09-10 18:56:57] [DETAILS] database create> Detected autobuild command for Java: /Users/brent/Documents/codeql/java/tools/autobuild.sh.
+[2022-09-10 18:56:57] [PROGRESS] database create> Running build command: [/Users/brent/Documents/codeql/java/tools/autobuild.sh]
+[2022-09-10 18:56:57] Running plumbing command: codeql database trace-command --working-dir=/Users/brent/IdeaProjects/HelloWorld --index-traceless-dbs --no-db-cluster -- /Users/brent/IdeaProjects/HelloWorld/java-database /Users/brent/Documents/codeql/java/tools/autobuild.sh
+[2022-09-10 18:56:57] [PROGRESS] database trace-command> Running command in /Users/brent/IdeaProjects/HelloWorld: [/Users/brent/Documents/codeql/java/tools/autobuild.sh]
+[2022-09-10 18:56:57] [build-stdout] [2022-09-10 18:56:57] Build directory is /Users/brent/IdeaProjects/HelloWorld/.
+[2022-09-10 18:56:57] [build-stdout] [2022-09-10 18:56:57] [autobuild] > chmod +x gradlew
+[2022-09-10 18:56:58] [build-stdout] [2022-09-10 18:56:58] [autobuild] > ./gradlew --no-daemon -S -Dorg.gradle.dependency.verification=off --init-script "/var/folders/wp/vfl8tqhx3qxfc8_xpsj57zl00000gn/T/semmleTempDir-3/init.gradle" clean
+[2022-09-10 18:57:01] [build-stdout] [2022-09-10 18:57:01] [autobuild] To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.0.1/userguide/gradle_daemon.html.
+[2022-09-10 18:57:03] [build-stdout] [2022-09-10 18:57:03] [autobuild] Daemon will be stopped at the end of the build stopping after processing
+[2022-09-10 18:57:06] [build-stdout] [2022-09-10 18:57:06] [autobuild] > Task :clean UP-TO-DATE
+[2022-09-10 18:57:06] [build-stdout] [2022-09-10 18:57:06] [autobuild] BUILD SUCCESSFUL in 5s
+[2022-09-10 18:57:06] [build-stdout] [2022-09-10 18:57:06] [autobuild] 1 actionable task: 1 up-to-date
+[2022-09-10 18:57:06] [build-stdout] [2022-09-10 18:57:06] [autobuild] > ./gradlew --no-daemon -S -Dorg.gradle.dependency.verification=off --init-script "/var/folders/wp/vfl8tqhx3qxfc8_xpsj57zl00000gn/T/semmleTempDir-3/init.gradle" testClasses
+[2022-09-10 18:57:07] [build-stdout] [2022-09-10 18:57:07] [autobuild] To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.0.1/userguide/gradle_daemon.html.
+[2022-09-10 18:57:08] [build-stdout] [2022-09-10 18:57:08] [autobuild] Daemon will be stopped at the end of the build stopping after processing
+[2022-09-10 18:57:11] [build-stdout] [2022-09-10 18:57:11] [autobuild] > Task :compileJava NO-SOURCE
+[2022-09-10 18:57:11] [build-stdout] [2022-09-10 18:57:11] [autobuild] > Task :processResources NO-SOURCE
+[2022-09-10 18:57:11] [build-stdout] [2022-09-10 18:57:11] [autobuild] > Task :classes UP-TO-DATE
+[2022-09-10 18:57:11] [build-stdout] [2022-09-10 18:57:11] [autobuild] > Task :compileTestJava NO-SOURCE
+[2022-09-10 18:57:11] [build-stdout] [2022-09-10 18:57:11] [autobuild] > Task :processTestResources NO-SOURCE
+[2022-09-10 18:57:11] [build-stdout] [2022-09-10 18:57:11] [autobuild] > Task :testClasses UP-TO-DATE
+[2022-09-10 18:57:11] [build-stdout] [2022-09-10 18:57:11] [autobuild] BUILD SUCCESSFUL in 4s
+[2022-09-10 18:57:11] Plumbing command codeql database trace-command completed.
+[2022-09-10 18:57:11] [PROGRESS] database create> Finalizing database at /Users/brent/IdeaProjects/HelloWorld/java-database.
+[2022-09-10 18:57:11] Running plumbing command: codeql database finalize --mode=normal --no-db-cluster -- /Users/brent/IdeaProjects/HelloWorld/java-database
+[2022-09-10 18:57:11] [ERROR] database finalize> No source code was seen and extracted to /Users/brent/IdeaProjects/HelloWorld/java-database.
+                              This can occur if the specified build commands failed to compile or process any code.
+                               - Confirm that there is some source code for the specified language in the project.
+                               - For codebases written in Go, JavaScript, TypeScript, and Python, do not specify 
+                                 an explicit --command.
+                               - For other languages, the --command must specify a "clean" build which compiles 
+                                 all the source code files without reusing existing build artefacts.
+[2022-09-10 18:57:11] Plumbing command codeql database finalize completed with status 32.
+[2022-09-10 18:57:11] Exiting with code 32

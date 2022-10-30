@@ -1,0 +1,34 @@
+---
+sourceLocationPrefix: "/Users/brent/IdeaProjects/HelloWorld"
+baselineLinesOfCode: 0
+unicodeNewlines: false
+columnKind: "utf16"
+primaryLanguage: "java"
+inProgress:
+  primaryLanguage: "java"
+  installedExtractors:
+    go:
+    - "file:///Users/brent/Documents/codeql/go/"
+    python:
+    - "file:///Users/brent/Documents/codeql/python/"
+    java:
+    - "file:///Users/brent/Documents/codeql/java/"
+    html:
+    - "file:///Users/brent/Documents/codeql/html/"
+    xml:
+    - "file:///Users/brent/Documents/codeql/xml/"
+    properties:
+    - "file:///Users/brent/Documents/codeql/properties/"
+    cpp:
+    - "file:///Users/brent/Documents/codeql/cpp/"
+    csv:
+    - "file:///Users/brent/Documents/codeql/csv/"
+    csharp:
+    - "file:///Users/brent/Documents/codeql/csharp/"
+    javascript:
+    - "file:///Users/brent/Documents/codeql/javascript/"
+    ruby:
+    - "file:///Users/brent/Documents/codeql/ruby/"
+creationMetadata:
+  cliVersion: "2.10.2"
+  creationTime: "2022-09-10T09:56:57.148800Z"

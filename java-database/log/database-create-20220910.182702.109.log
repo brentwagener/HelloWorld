@@ -1,0 +1,140 @@
+[2022-09-10 18:27:02] This is codeql database create java-database --language=java --command=gradle --no-daemon clean test --overwrite
+[2022-09-10 18:27:02] Log file was started late.
+[2022-09-10 18:27:02] [PROGRESS] database create> Initializing database at /Users/brent/IdeaProjects/HelloWorld/java-database.
+[2022-09-10 18:27:02] Running plumbing command: codeql database init --overwrite --language=java --source-root=/Users/brent/IdeaProjects/HelloWorld --allow-missing-source-root=false --allow-already-existing -- /Users/brent/IdeaProjects/HelloWorld/java-database
+[2022-09-10 18:27:02] [PROGRESS] database init> Counting lines of code in /Users/brent/IdeaProjects/HelloWorld
+[2022-09-10 18:27:02] [PROGRESS] database init> Resolving extractor java.
+[2022-09-10 18:27:02] Calling plumbing command: codeql resolve languages --format=json
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Scanning for [codeql-extractor.yml] from /Users/brent/Documents/codeql/.codeqlmanifest.json
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/go/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/python/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/java/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/html/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/xml/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/properties/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/cpp/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/csv/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/csharp/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/javascript/codeql-extractor.yml.
+[2022-09-10 18:27:02] [DETAILS] resolve languages> Parsing /Users/brent/Documents/codeql/ruby/codeql-extractor.yml.
+[2022-09-10 18:27:02] Plumbing command codeql resolve languages completed:
+                      {
+                        "extractors" : {
+                          "go" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/go"
+                            }
+                          ],
+                          "python" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/python"
+                            }
+                          ],
+                          "java" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/java",
+                              "extractor_options" : {
+                                "exclude" : {
+                                  "title" : "A glob excluding files from analysis.",
+                                  "description" : "A glob indicating what files to exclude from the analysis.\n",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          ],
+                          "html" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/html"
+                            }
+                          ],
+                          "xml" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/xml"
+                            }
+                          ],
+                          "properties" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/properties"
+                            }
+                          ],
+                          "cpp" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/cpp"
+                            }
+                          ],
+                          "csv" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/csv"
+                            }
+                          ],
+                          "csharp" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/csharp",
+                              "extractor_options" : {
+                                "trap" : {
+                                  "title" : "Options pertaining to TRAP.",
+                                  "description" : "Options pertaining to TRAP.",
+                                  "type" : "object",
+                                  "properties" : {
+                                    "compression" : {
+                                      "title" : "Controls compression for the TRAP files written by the extractor.",
+                                      "description" : "This option is only intended for use in debugging the extractor. Accepted values are 'brotli' (the default, to write brotli-compressed TRAP), 'gzip', and 'none' (to write uncompressed TRAP).\n",
+                                      "type" : "string",
+                                      "pattern" : "^(none|gzip|brotli)$"
+                                    }
+                                  }
+                                },
+                                "buildless" : {
+                                  "title" : "Whether to use buildless (standalone) extraction.",
+                                  "description" : "A value indicating, which type of extraction the autobuilder should perform. If 'true', then the standalone extractor will be used, otherwise tracing extraction will be performed. The default is 'false'. Note that buildless extraction will generally yield less accurate analysis results, and should only be used in cases where it is not possible to build the code (for example if it uses inaccessible dependencies).\n",
+                                  "type" : "string",
+                                  "pattern" : "^(false|true)$"
+                                }
+                              }
+                            }
+                          ],
+                          "javascript" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/javascript"
+                            }
+                          ],
+                          "ruby" : [
+                            {
+                              "extractor_root" : "/Users/brent/Documents/codeql/ruby"
+                            }
+                          ]
+                        }
+                      }
+[2022-09-10 18:27:02] [DETAILS] database init> Found candidate extractor root for java: /Users/brent/Documents/codeql/java.
+[2022-09-10 18:27:02] [PROGRESS] database init> Successfully loaded extractor Java (java) from /Users/brent/Documents/codeql/java.
+[2022-09-10 18:27:02] [PROGRESS] database init> Created skeleton CodeQL database at /Users/brent/IdeaProjects/HelloWorld/java-database. This in-progress database is ready to be populated by an extractor.
+[2022-09-10 18:27:02] Plumbing command codeql database init completed.
+[2022-09-10 18:27:02] [PROGRESS] database create> Running build command: [gradle, --no-daemon, clean, test]
+[2022-09-10 18:27:02] Running plumbing command: codeql database trace-command --working-dir=/Users/brent/IdeaProjects/HelloWorld --index-traceless-dbs --no-db-cluster -- /Users/brent/IdeaProjects/HelloWorld/java-database gradle --no-daemon clean test
+[2022-09-10 18:27:02] [PROGRESS] database trace-command> Running command in /Users/brent/IdeaProjects/HelloWorld: [gradle, --no-daemon, clean, test]
+[2022-09-10 18:27:04] [build-stdout] To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.5.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+[2022-09-10 18:27:05] [build-stdout] Daemon will be stopped at the end of the build 
+[2022-09-10 18:27:05] [build-stderr] FAILURE: Build failed with an exception.
+[2022-09-10 18:27:05] [build-stderr] * What went wrong:
+[2022-09-10 18:27:05] [build-stderr] Directory '/Users/brent/IdeaProjects/HelloWorld' does not contain a Gradle build.
+[2022-09-10 18:27:05] [build-stderr] A Gradle build should contain a 'settings.gradle' or 'settings.gradle.kts' file in its root directory. It may also contain a 'build.gradle' or 'build.gradle.kts' file.
+[2022-09-10 18:27:05] [build-stderr] To create a new Gradle build in this directory run 'gradle init'
+[2022-09-10 18:27:05] [build-stderr] For more detail on the 'init' task see https://docs.gradle.org/7.5.1/userguide/build_init_plugin.html
+[2022-09-10 18:27:05] [build-stderr] For more detail on creating a Gradle build see https://docs.gradle.org/7.5.1/userguide/tutorial_using_tasks.html
+[2022-09-10 18:27:05] [build-stderr] * Try:
+[2022-09-10 18:27:05] [build-stderr] > Run gradle init to create a new Gradle build in this directory.
+[2022-09-10 18:27:05] [build-stderr] > Run with --stacktrace option to get the stack trace.
+[2022-09-10 18:27:05] [build-stderr] > Run with --info or --debug option to get more log output.
+[2022-09-10 18:27:05] [build-stderr] * Get more help at https://help.gradle.org
+[2022-09-10 18:27:05] [build-stderr] BUILD FAILED in 1s
+[2022-09-10 18:27:06] [ERROR] Spawned process exited abnormally (code 1; tried to run: [/Users/brent/Documents/codeql/tools/osx64/preload_tracer, gradle, --no-daemon, clean, test])
+[2022-09-10 18:27:06] Exception caught at top level: Exit status 1 from command: [gradle, --no-daemon, clean, test]
+                      com.semmle.cli2.database.DatabaseProcessCommandCommon.executeSubcommand(DatabaseProcessCommandCommon.java:215)
+                      com.semmle.cli2.database.TraceCommandCommand.executeSubcommand(TraceCommandCommand.java:85)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:162)
+                      com.semmle.cli2.database.CreateCommand.executeSubcommand(CreateCommand.java:151)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:500)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:205)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:214)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:98)
